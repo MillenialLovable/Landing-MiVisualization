@@ -1,5 +1,6 @@
-import React from "react";
-import dashboardImg from "../assets/dashboard.png"; // Asegúrate de que exista esa imagen
+import React, { useRef, useState } from "react";
+import emailjs from "emailjs-com";
+import dashboardImg from "../assets/dashboard.png";
 import {
   UserIcon,
   EnvelopeIcon,
@@ -9,6 +10,56 @@ import {
 } from "@heroicons/react/24/outline";
 
 const Hero: React.FC = () => {
+  const form = useRef<HTMLFormElement>(null);
+  const [sent, setSent] = useState(false);
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (!form.current) return;
+
+    // Creamos el mensaje personalizado
+    const formData = new FormData(form.current);
+    const nombre = formData.get("nombre");
+    const apellido = formData.get("apellido");
+    const correo = formData.get("correo");
+    const empresa = formData.get("empresa");
+    const cargo = formData.get("cargo");
+    const celular = formData.get("celular"); // <-- Agrega esta línea
+
+    const message = `
+Hay una nueva consulta de interés:
+- Nombre Completo: ${nombre} ${apellido}
+- Correo Electrónico: ${correo}
+- Celular: ${celular}
+- Empresa: ${empresa}
+- Cargo: ${cargo}
+    `;
+
+    // Enviamos usando EmailJS
+    emailjs
+      .send(
+        "service_502naya",
+        "template_btlp6lr",
+        {
+          name: `${nombre} ${apellido}`,
+          email: correo,
+          message: message,
+          title: "Contacto desde Landing", // <-- agrega esto si tu template lo pide
+        },
+        "warw7n_ywPCdoR-Km" // <-- Reemplaza con tu User ID (o Public Key)
+      )
+      .then(
+        (result) => {
+          setSent(true);
+          if (form.current) form.current.reset();
+        },
+        (error) => {
+          alert("Error al enviar el mensaje. Intenta de nuevo.");
+          console.error("EmailJS error:", error); // <-- Agrega esta línea
+        }
+      );
+  };
+
   return (
     <section
       id="home"
@@ -76,73 +127,94 @@ const Hero: React.FC = () => {
                 Comienza o pide una demostración
               </span>
             </h3>
-            <form className="grid grid-cols-2 gap-4">
-              {/* Nombre y Apellido */}
-              <div className="col-span-1 relative">
-                <UserIcon className="w-5 h-5 absolute left-2 top-2.5 text-gray-400" />
-                <input
-                  type="text"
-                  placeholder="Nombre"
-                  className="w-full pl-9 p-2 border rounded"
-                />
+            {sent ? (
+              <div className="text-green-600 text-center font-bold">
+                ¡Mensaje enviado! Nos pondremos en contacto pronto.
               </div>
-
-              <div className="col-span-1 relative">
-                <UserIcon className="w-5 h-5 absolute left-2 top-2.5 text-gray-400" />
-                <input
-                  type="text"
-                  placeholder="Apellido"
-                  className="w-full pl-9 p-2 border rounded"
-                />
-              </div>
-
-              {/* Correo y Empresa */}
-              <div className="col-span-1 relative">
-                <PhoneIcon className="w-5 h-5 absolute left-2 top-2.5 text-gray-400" />
-                <input
-                  type="tel"
-                  placeholder="Celular"
-                  className="w-full pl-9 p-2 border rounded"
-                  pattern="[0-9]{3}-?[0-9]{3}-?[0-9]{4}"
-                  title="Ingrese un número de teléfono válido (XXX) XXX-XXXX"
-                />
-              </div>
-              <div className="col-span-1 relative">
-                <EnvelopeIcon className="w-5 h-5 absolute left-2 top-2.5 text-gray-400" />
-                <input
-                  type="email"
-                  placeholder="Correo"
-                  className="w-full pl-9 p-2 border rounded"
-                />
-              </div>
-
-              <div className="col-span-1 relative">
-                <BuildingOfficeIcon className="w-5 h-5 absolute left-2 top-2.5 text-gray-400" />
-                <input
-                  type="text"
-                  placeholder="Nombre de la empresa"
-                  className="w-full pl-9 p-2 border rounded"
-                />
-              </div>
-
-              {/* Cargo y Usuarios */}
-              <div className="col-span-1 relative">
-                <BriefcaseIcon className="w-5 h-5 absolute left-2 top-2.5 text-gray-400" />
-                <input
-                  type="text"
-                  placeholder="Cargo"
-                  className="w-full pl-9 p-2 border rounded"
-                />
-              </div>
-
-              {/* Botón */}
-              <button
-                type="submit"
-                className="col-span-2 mt-2 bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
+            ) : (
+              <form
+                ref={form}
+                onSubmit={sendEmail}
+                className="grid grid-cols-2 gap-4"
               >
-                Enviar
-              </button>
-            </form>
+                {/* Nombre y Apellido */}
+                <div className="col-span-1 relative">
+                  <UserIcon className="w-5 h-5 absolute left-2 top-2.5 text-gray-400" />
+                  <input
+                    type="text"
+                    name="nombre"
+                    placeholder="Nombre"
+                    className="w-full pl-9 p-2 border rounded"
+                    required
+                  />
+                </div>
+
+                <div className="col-span-1 relative">
+                  <UserIcon className="w-5 h-5 absolute left-2 top-2.5 text-gray-400" />
+                  <input
+                    type="text"
+                    name="apellido"
+                    placeholder="Apellido"
+                    className="w-full pl-9 p-2 border rounded"
+                    required
+                  />
+                </div>
+
+                {/* Celular */}
+                <div className="col-span-1 relative">
+                  <PhoneIcon className="w-5 h-5 absolute left-2 top-2.5 text-gray-400" />
+                  <input
+                    type="tel"
+                    name="celular"
+                    placeholder="Celular"
+                    className="w-full pl-9 p-2 border rounded"
+                  />
+                </div>
+
+                {/* Correo */}
+                <div className="col-span-1 relative">
+                  <EnvelopeIcon className="w-5 h-5 absolute left-2 top-2.5 text-gray-400" />
+                  <input
+                    type="email"
+                    name="correo"
+                    placeholder="Correo"
+                    className="w-full pl-9 p-2 border rounded"
+                    required
+                  />
+                </div>
+
+                {/* Empresa */}
+                <div className="col-span-1 relative">
+                  <BuildingOfficeIcon className="w-5 h-5 absolute left-2 top-2.5 text-gray-400" />
+                  <input
+                    type="text"
+                    name="empresa"
+                    placeholder="Nombre de la empresa"
+                    className="w-full pl-9 p-2 border rounded"
+                    required
+                  />
+                </div>
+
+                {/* Cargo */}
+                <div className="col-span-1 relative">
+                  <BriefcaseIcon className="w-5 h-5 absolute left-2 top-2.5 text-gray-400" />
+                  <input
+                    type="text"
+                    name="cargo"
+                    placeholder="Cargo"
+                    className="w-full pl-9 p-2 border rounded"
+                  />
+                </div>
+
+                {/* Botón */}
+                <button
+                  type="submit"
+                  className="col-span-2 mt-2 bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
+                >
+                  Enviar
+                </button>
+              </form>
+            )}
           </div>
         </div>
 
