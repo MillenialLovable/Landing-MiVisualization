@@ -44,7 +44,7 @@ const BlogDetail: React.FC = () => {
         </div>
       </div>
       {/* Carrusel debajo del contenido */}
-      <div className="bg-[#09243F] py-[60px] px-20">
+      <div className="bg-[#09243F] py-[60px] px-2 sm:px-10 md:px-20">
         <h1 className="text-2xl sm:text-4xl font-bold text-start text-white mb-8">
           Insights y Novedades sobre BI y Analítica
         </h1>
