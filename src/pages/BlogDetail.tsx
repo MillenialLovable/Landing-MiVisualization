@@ -2,49 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import BlogCarrusel from "../components/BlogCarrusel";
-import tarjeta1 from "../assets/tarjeta1.png";
-import tarjeta2 from "../assets/tarjeta2.png";
-
-const blogPosts = [
-  {
-    id: 1,
-    title: "Cómo migrar de Excel a Power BI sin perder datos",
-    author: "Jessie G",
-    time: "2 minutos",
-    img: tarjeta1,
-    avatar:
-      "https://storage.googleapis.com/a1aa/image/e5a42dca-e51c-4cd5-1201-da08396fe8f3.jpg",
-    alt: "Ilustración colorida de gráficos y tablas de analítica en pantalla de computadora y papeles",
-    content: (
-      <div className="bg-transparent rounded-lg">
-        <p className="text-white mt-4">
-          Revolucione las operaciones, cree nuevos productos y fuentes de ingresos, y mejore la experiencia del cliente. Nuestra completa gama de servicios abarca desde consultoría y creación de plataformas hasta soluciones específicas de la industria, gestión de infraestructura y transformación de la cadena de valor. Proporcionamos soporte integral para mejorar sus operaciones comerciales, impulsar la innovación y maximizar el valor.
-       </p>
-        <p className="text-white mt-4">
-          Con nuestra experiencia en dominios industriales y aplicaciones comerciales, nuestros consultores colaboran con usted para identificar áreas específicas de sus operaciones donde la IA generativa puede ofrecer el valor más significativo. Podemos ayudarle a seleccionar los modelos, arquitecturas y socios adecuados, mientras desarrollamos el talento necesario y garantizamos el cumplimiento normativo y la gestión de riesgos. Trabaje con nosotros para aprovechar todo el potencial de la IA generativa y mantenerse a la vanguardia.
-        </p>
-      </div>
-    ),
-  },
-  {
-    id: 2,
-    title: "Integración de AWS Quicksight con fuentes externas",
-    author: "Brian D",
-    time: "1 minuto",
-    img: tarjeta2,
-    avatar:
-      "https://storage.googleapis.com/a1aa/image/47763a4e-919b-41d7-8f71-c7a2817de218.jpg",
-    alt: "Captura de video con tres personas en conferencia en recuadros",
-    content: (
-      <>
-        <p>
-          AWS Quicksight permite conectar y analizar datos de múltiples fuentes externas de manera sencilla...
-        </p>
-        {/* Agrega aquí el contenido completo del blog */}
-      </>
-    ),
-  },
-];
+import { blogPosts } from "../data/blogPosts";
 
 const BlogDetail: React.FC = () => {
   const { id } = useParams();

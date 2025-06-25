@@ -2,31 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import tarjeta1 from "../assets/tarjeta11.png";
 import tarjeta2 from "../assets/tarjeta2.png";
-
-const blogPosts = [
-  {
-    id: 1,
-    title: "Cómo migrar de Excel a Power BI sin perder datos",
-    author: "Jessie G",
-    time: "2 minutos",
-    img: tarjeta1,
-    avatar:
-      "https://storage.googleapis.com/a1aa/image/e5a42dca-e51c-4cd5-1201-da08396fe8f3.jpg",
-    alt: "Ilustración colorida de gráficos y tablas de analítica en pantalla de computadora y papeles",
-    link: "/blog/1",
-  },
-  {
-    id: 2,
-    title: "Integración de AWS Quicksight con fuentes externas",
-    author: "Brian D",
-    time: "1 minuto",
-    img: tarjeta2,
-    avatar:
-      "https://storage.googleapis.com/a1aa/image/47763a4e-919b-41d7-8f71-c7a2817de218.jpg",
-    alt: "Captura de video con tres personas en conferencia en recuadros",
-    link: "/blog/2",
-  },
-];
+import { blogPosts } from "../data/blogPosts";
 
 const useVisibleCards = () => {
   const [visibleCards, setVisibleCards] = useState(
