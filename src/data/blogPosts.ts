@@ -39,6 +39,6 @@ export const blogPosts: BlogPost[] = [
     alt: "Captura de video con tres personas en conferencia en recuadros",
     link: "/blog/2",
     content:
-      "AWS Quicksight permite conectar y analizar datos de múltiples fuentes externas de manera sencilla... (Agrega aquí el contenido completo del blog)",
+      "Descubre cómo potenciar tus análisis de datos integrando AWS Quicksight con diversas fuentes externas. Aprende a conectar bases de datos SQL, hojas de cálculo y servicios en la nube para centralizar la información y obtener visualizaciones dinámicas en tiempo real. Este artículo te guía paso a paso en la configuración de conectores, la gestión de permisos y la automatización de actualizaciones, permitiéndote tomar decisiones informadas y ágiles. Optimiza tus reportes y comparte insights clave con tu equipo de manera segura y eficiente.",
   },
 ];

@@ -29,7 +29,7 @@ const BlogDetail: React.FC = () => {
             <img
               src={post.img}
               alt={post.alt}
-              className="w-full h-auto lg:h-full object-cover rounded-lg shadow-lg"
+              className="w-full max-h-80 object-cover rounded-lg shadow-lg mx-auto"
             />
           </div>
           {/* Texto */}
