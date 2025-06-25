@@ -49,13 +49,13 @@ Hay una nueva consulta de interés:
         "warw7n_ywPCdoR-Km" // <-- Reemplaza con tu User ID (o Public Key)
       )
       .then(
-        (result) => {
+        () => {
           setSent(true);
           if (form.current) form.current.reset();
         },
         (error) => {
           alert("Error al enviar el mensaje. Intenta de nuevo.");
-          console.error("EmailJS error:", error); // <-- Agrega esta línea
+          console.error("EmailJS error:", error);
         }
       );
   };
