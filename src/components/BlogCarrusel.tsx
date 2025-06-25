@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import tarjeta1 from "../assets/tarjeta11.png";
-import tarjeta2 from "../assets/tarjeta2.png";
 import { blogPosts } from "../data/blogPosts";
 
 const useVisibleCards = () => {

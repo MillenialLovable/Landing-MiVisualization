@@ -1,6 +1,6 @@
 import tarjeta1 from "../assets/tarjeta11.png";
 import tarjeta2 from "../assets/tarjeta2.png";
-import React, { type ReactNode } from "react";
+import { type ReactNode } from "react";
 
 export interface BlogPost {
   id: number;
