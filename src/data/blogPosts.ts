@@ -1,5 +1,5 @@
-import tarjeta1 from "../assets/tarjeta11.png";
-import tarjeta2 from "../assets/tarjeta2.png";
+import tarjeta1 from "../assets/Tarjeta11.png";
+import tarjeta2 from "../assets/Tarjeta2.png";
 import { type ReactNode } from "react";
 
 export interface BlogPost {
