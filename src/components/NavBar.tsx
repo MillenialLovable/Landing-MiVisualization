@@ -16,6 +16,22 @@ const NavBar: React.FC = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleNavClick = (
+    e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+    href: string
+  ) => {
+    const id = href.replace("#", "");
+    const el = document.getElementById(id);
+    if (el) {
+      e.preventDefault();
+      el.scrollIntoView({ behavior: "smooth" });
+      setIsMenuOpen(false);
+    } else if (window.location.pathname !== "/") {
+      // Si no existe el elemento y no estamos en la home, redirige a la home con el hash
+      window.location.href = "/" + href;
+    }
+  };
+
   return (
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
@@ -226,6 +242,7 @@ const NavBar: React.FC = () => {
           <li>
             <a
               href="#home"
+              onClick={e => handleNavClick(e, "#home")}
               className="hover:text-blue-300 transition-colors text-base"
             >
               Inicio
@@ -234,6 +251,7 @@ const NavBar: React.FC = () => {
           <li>
             <a
               href="#powerbi"
+              onClick={e => handleNavClick(e, "#powerbi")}
               className="hover:text-blue-300 transition-colors text-base"
             >
               ¿Qué es el Mi Visualization?
@@ -242,6 +260,7 @@ const NavBar: React.FC = () => {
           <li>
             <a
               href="#bigenerativo"
+              onClick={e => handleNavClick(e, "#bigenerativo")}
               className="hover:text-blue-300 transition-colors text-base"
             >
               Bi Generativo
@@ -250,6 +269,7 @@ const NavBar: React.FC = () => {
           <li>
             <a
               href="#demo"
+              onClick={e => handleNavClick(e, "#demo")}
               className="hover:text-blue-300 transition-colors text-base"
             >
               Demo
@@ -258,6 +278,7 @@ const NavBar: React.FC = () => {
           <li>
             <a
               href="#seguridad"
+              onClick={e => handleNavClick(e, "#seguridad")}
               className="hover:text-blue-300 transition-colors text-base"
             >
               Seguridad
@@ -266,6 +287,7 @@ const NavBar: React.FC = () => {
           <li>
             <a
               href="#contact"
+              onClick={e => handleNavClick(e, "#contact")}
               className="hover:text-blue-300 transition-colors text-base"
             >
               Contáctanos
@@ -303,7 +325,7 @@ const NavBar: React.FC = () => {
               <li>
                 <a
                   href="#home"
-                  onClick={toggleMenu}
+                  onClick={e => handleNavClick(e, "#home")}
                   className="hover:text-blue-300 transition-colors text-xl md:text-2xl"
                 >
                   Inicio
@@ -312,7 +334,7 @@ const NavBar: React.FC = () => {
               <li>
                 <a
                   href="#powerbi"
-                  onClick={toggleMenu}
+                  onClick={e => handleNavClick(e, "#powerbi")}
                   className="hover:text-blue-300 transition-colors text-xl md:text-2xl"
                 >
                   ¿Qué es el Mi Visualization?
@@ -321,7 +343,7 @@ const NavBar: React.FC = () => {
               <li>
                 <a
                   href="#services"
-                  onClick={toggleMenu}
+                  onClick={e => handleNavClick(e, "#services")}
                   className="hover:text-blue-300 transition-colors text-xl md:text-2xl"
                 >
                   Bi Generativo
@@ -330,7 +352,7 @@ const NavBar: React.FC = () => {
               <li>
                 <a
                   href="#portfolio"
-                  onClick={toggleMenu}
+                  onClick={e => handleNavClick(e, "#portfolio")}
                   className="hover:text-blue-300 transition-colors text-xl md:text-2xl"
                 >
                   Demo
@@ -339,7 +361,7 @@ const NavBar: React.FC = () => {
               <li>
                 <a
                   href="#contact"
-                  onClick={toggleMenu}
+                  onClick={e => handleNavClick(e, "#contact")}
                   className="hover:text-blue-300 transition-colors text-xl md:text-2xl"
                 >
                   Sobre Nosotros
@@ -348,7 +370,7 @@ const NavBar: React.FC = () => {
               <li>
                 <a
                   href="#blog"
-                  onClick={toggleMenu}
+                  onClick={e => handleNavClick(e, "#blog")}
                   className="hover:text-blue-300 transition-colors text-xl md:text-2xl"
                 >
                   Contáctanos
