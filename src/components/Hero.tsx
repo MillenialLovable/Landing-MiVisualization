@@ -8,14 +8,6 @@ import {
   BriefcaseIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
-import icon1 from "../assets/icons/GobiernoTotal.svg"
-import icon2 from "../assets/icons/BIGenerativo.svg";
-import icon3 from "../assets/icons/Escabilidad.svg";
-import icon4 from "../assets/icons/AccesibilidadTotal.svg";
-import icon5 from "../assets/icons/SeguridadAvanzada.svg";
-import icon6 from "../assets/icons/Auditoria.svg";
-import icon7 from "../assets/icons/KPI.svg";
-import icon8 from "../assets/icons/ParaTodos.svg";
 
 const Hero: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
