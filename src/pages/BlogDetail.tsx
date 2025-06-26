@@ -22,24 +22,39 @@ const BlogDetail: React.FC = () => {
   return (
     <>
       <NavBar />
-      <div className="bg-[#09243F] min-h-screen py-[60px] px-2 sm:px-4 text-white">
-        <div className="bg-transparent rounded-xl mx-auto p-2 sm:p-6 lg:p-10 flex flex-col lg:flex-row gap-8 items-center lg:items-stretch max-w-4xl xl:max-w-6xl lg:min-h-[100px]">
-          {/* Imagen arriba en mobile/tablet, derecha en desktop */}
-          <div className="w-auto max-w-xs sm:max-w-sm md:max-w-md lg:w-[340px] xl:w-[400px] 2xl:w-[420px] mb-6 lg:mb-0  order-1 lg:order-2 flex-shrink-0 flex items-center h-auto lg:h-auto">
+      <div className="bg-[#09243F] min-h-screen py-[60px] px-2 sm:px-4 text-white flex justify-center">
+        <div className="bg-transparent rounded-xl p-2 sm:p-6 lg:p-6 grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-4xl xl:max-w-[1500px] w-full lg:min-h-[400px] items-stretch">
+          {/* Texto a la izquierda */}
+          <div className="col-span-1 flex flex-col justify-start order-2 lg:order-1">
+            <h1 className="text-2xl sm:text-3xl font-bold mb-2">
+              {post.title}
+            </h1>
+            <div className="flex items-center gap-2 mb-4">
+              <img
+                src={post.avatar}
+                alt={post.author}
+                className="w-8 h-8 rounded-full"
+              />
+              <span>{post.author}</span>
+            </div>
+            <div className="text-[#BFD7ED] text-base sm:text-xl">
+              {typeof post.content === "string"
+                ? post.content.split("\n").map((line, idx) => (
+                    <React.Fragment key={idx}>
+                      {line}
+                      <br />
+                    </React.Fragment>
+                  ))
+                : post.content}
+            </div>
+          </div>
+          {/* Imagen a la derecha */}
+          <div className="col-span-1 lg:col-span-2 flex items-start lg:items-stretch order-1 lg:order-2">
             <img
               src={post.img}
               alt={post.alt}
-              className="w-full max-h-80 object-cover rounded-lg shadow-lg mx-auto"
+              className="w-full h-auto lg:h-full object-cover rounded-lg shadow-lg"
             />
-          </div>
-          {/* Texto */}
-          <div className="flex-1 w-full order-2 lg:order-1 flex flex-col justify-center">
-            <h1 className="text-2xl sm:text-3xl font-bold mb-2">{post.title}</h1>
-            <div className="flex items-center gap-2 mb-4">
-              <img src={post.avatar} alt={post.author} className="w-8 h-8 rounded-full" />
-              <span>{post.author}</span>
-            </div>
-            <div className="text-[#BFD7ED] text-base sm:text-lg text-left">{post.content}</div>
           </div>
         </div>
       </div>

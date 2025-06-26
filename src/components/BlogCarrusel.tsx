@@ -41,6 +41,14 @@ const BlogCarrusel: React.FC = () => {
     navigate(link);
   };
 
+  // Carrusel automático
+  useEffect(() => {
+    const interval = setInterval(() => {
+      handleNext();
+    }, 4000); // Cambia el tiempo si lo deseas (milisegundos)
+    return () => clearInterval(interval);
+  }, [visibleCards, current]); // Dependencias importantes
+
   const visiblePosts =
     blogPosts.slice(current, current + visibleCards).length === visibleCards
       ? blogPosts.slice(current, current + visibleCards)
@@ -63,12 +71,12 @@ const BlogCarrusel: React.FC = () => {
           {visiblePosts.map((post) => (
             <article
               key={post.id}
-              className="flex flex-col bg-gradient-to-br from-[#112B4A] to-[#0D1E33] rounded-2xl shadow-lg overflow-hidden hover:scale-[1.03] transition-transform duration-300 w-full cursor-pointer"
+              className="flex flex-row bg-gradient-to-br from-[#112B4A] to-[#0D1E33] rounded-2xl shadow-lg overflow-hidden hover:scale-[1.03] transition-transform duration-300 w-full cursor-pointer"
               onClick={() => handleCardClick(post.link)}
             >
               <img
                 alt={post.alt}
-                className="w-full h-48 object-cover"
+                className="w-[300px] h-auto object-cover flex-shrink-0"
                 src={post.img}
               />
               <div className="p-4 md:p-6 flex flex-col justify-between flex-1">

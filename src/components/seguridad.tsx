@@ -142,7 +142,7 @@ const Seguridad: React.FC = () => {
           <p className="text-transparent bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF] tracking-widest text-sm md:text-md font-semibold">
             N U E S T R O B L O G
           </p>
-          <h1 className="font-extrabold text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight mb-4">
+          <h1 className="font-extrabold text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight mb-4 max-w-3xl mx-auto">
             Insights Y Novedades Sobre BI Y Analítica
           </h1>
           <p className="text-[#8B9BB8] text-xs sm:text-sm max-w-xl mx-auto leading-relaxed">
