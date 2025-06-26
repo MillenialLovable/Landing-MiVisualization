@@ -153,7 +153,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="md:col-span-6 space-y-4">
-            <h4 className="font-semibold text-white mb-3">
+            {/* <h4 className="font-semibold text-white mb-3">
               Información de Contacto
             </h4>
             <div className="text-[#a3b0c0] space-y-3 text-sm md:text-base max-w-[1000px]">
@@ -245,7 +245,7 @@ const Footer: React.FC = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div
               className="rounded-xl p-4 max-w-auto mt-4"
               style={{

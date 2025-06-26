@@ -8,6 +8,14 @@ import {
   BriefcaseIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
+import icon1 from "../assets/icons/GobiernoTotal.svg";
+import icon2 from "../assets/icons/BIGenerativo.svg";
+import icon3 from "../assets/icons/Escabilidad.svg";
+import icon4 from "../assets/icons/AccesibilidadTotal.svg";
+import icon5 from "../assets/icons/SeguridadAvanzada.svg";
+import icon6 from "../assets/icons/Auditoria.svg";
+import icon7 from "../assets/icons/KPI.svg";
+import icon8 from "../assets/icons/ParaTodos.svg";
 
 const Hero: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
@@ -74,27 +82,86 @@ Hay una nueva consulta de interés:
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12 sm:mt-12 md:mt-12 lg:mt-18 xl:mt-18 2xl:mt-20">
         {/* Fila 1 - Columna 1: Texto */}
         <div className="lg:col-span-1 flex flex-col justify-center items-center">
-          <div className="w-full max-w-3xl text-left">
-            {" "}
-            {/* Contenedor interno para alinear texto a izquierda */}
-            <p className="text-md font-bold leading-tight uppercase mb-2">
-              Información Accesible y Gestionada para Todos
-            </p>
-            <h1 className="text-4xl lg:text-[45px] font-bold leading-tight mb-6">
-              <span className="bg-gradient-to-r from-[#2EE0A2] via-[#26B7FF] to-[#2EE0A2] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x-slow before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/40 before:to-transparent before:animate-shine before:bg-[length:300%_100%] before:bg-clip-text before:text-transparent">
-                Reduce Costos de Power BI
-              </span>{" "}
-              Un <span className="text-[#2EE0A2]">30%</span> Con Mi Visualization hoy
-            </h1>
-            <p className="mb-6 text-white font-inter text-[23px] leading-1">
-              Con Mi Visualization, ahorra y escala: reportes centralizados, seguros y <span className="text-[#2EE0A2]">hasta 20 usuarios por $2,540 al año</span>.
-            </p>
+          <div className="w-full max-w-3xl text-left grid grid-rows-[auto_1fr] gap-6">
+            {/* Texto arriba */}
+            <div>
+              <h1 className="text-4xl lg:text-[45px] font-bold leading-tight mb-6">
+                <span className="bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF]  bg-clip-text text-transparent">
+                  Reduce costos de Power BI
+                </span>{" "}
+                hasta un <span className="text-[#2EE0A2]">30%</span> con mi
+                visualization hoy
+              </h1>
+              <p className="mb-6 text-white font-inter text-[23px] leading-1">
+                Con Mi Visualization, ahorra y escala: reportes centralizados,
+                seguros y{" "}
+                <span className="text-[#2EE0A2]">
+                  hasta 20 usuarios por $2,540 al año
+                </span>
+                .
+              </p>
+            </div>
+            {/* Iconos abajo */}
+            <div className="grid grid-rows-2 gap-6">
+              <div className="grid grid-cols-4 gap-8">
+                <div className="flex flex-col items-center">
+                  <img src={icon1} alt="Icon 1" className="h-12 w-12" />
+                  <span className="text-white font-inter text-sm leading-1 mt-2">
+                    Gobierno Total
+                  </span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <img src={icon2} alt="Icon 2" className="h-12 w-12" />
+                  <span className="text-white font-inter text-sm leading-1 mt-2">
+                    BI generativa con IA
+                  </span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <img src={icon3} alt="Icon 3" className="h-12 w-12" />
+                  <span className="text-white font-inter text-sm leading-1 mt-2">
+                    Escabilidad
+                  </span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <img src={icon4} alt="Icon 4" className="h-12 w-12" />
+                  <span className="text-white font-inter text-sm leading-1 mt-2">
+                    Accesibilidad total
+                  </span>
+                </div>
+              </div>
+              <div className="grid grid-cols-4 gap-8">
+                <div className="flex flex-col items-center">
+                  <img src={icon5} alt="Icon 5" className="h-12 w-12" />
+                  <span className="text-white font-inter text-sm leading-1 mt-2">
+                    Seguridad avanzada
+                  </span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <img src={icon6} alt="Icon 6" className="h-12 w-12" />
+                  <span className="text-white font-inter text-sm leading-1 mt-2">
+                    Auditoria
+                  </span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <img src={icon7} alt="Icon 7" className="h-12 w-12" />
+                  <span className="text-white font-inter text-sm leading-1 mt-2">
+                    KPI con analítica avanzada
+                  </span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <img src={icon8} alt="Icon 8" className="h-12 w-12" />
+                  <span className="text-white font-inter text-sm leading-1 mt-2">
+                    Para Todos
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
         {/* Fila 1 - Columna 2: Formulario */}
         <div className="lg:col-span-1 flex justify-center items-center">
-          <div className="bg-gray-100 text-gray-900 p-6 rounded-3xl shadow-lg w-full max-w-lg mx-h-md">
+          <div className="bg-gray-100 text-gray-900 p-6 rounded-3xl shadow-lg w-full max-w-lg min-w-[280px] overflow-auto mx-h-md">
             <h3 className="text-lg font-semibold text-center mb-4">
               ¿Interesado? <br />
               <span className="font-normal">
