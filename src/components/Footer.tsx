@@ -217,7 +217,7 @@ const Footer: React.FC = () => {
                       className="hover:text-white transition"
                       href="mailto:info@mivisualization"
                     >
-                      info@mivisualization
+                      info@millev.com
                     </a>
                   </p>
                   <p className="flex items-center space-x-3">
@@ -240,7 +240,7 @@ const Footer: React.FC = () => {
                       className="hover:text-white transition"
                       href="tel:+519933650110"
                     >
-                      (+51) 933 650 110
+                      (+51) 975 113 510
                     </a>
                   </p>
                 </div>

@@ -367,7 +367,7 @@ const NavBar: React.FC = () => {
 };
 
 // Botón flotante de WhatsApp
-const whatsappNumber = "51933650110";
+const whatsappNumber = "51975113510";
 const whatsappMessage =
   "¡Hola! 👋😃 Me encantaría obtener más información o una demo de Mi Visualization. 📊✨ ¿Podrías ayudarme? ¡Gracias! 🙌";
 const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(

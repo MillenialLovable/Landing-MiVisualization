@@ -8,6 +8,14 @@ import {
   BriefcaseIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
+import icon1 from "../assets/icons/GobiernoTotal.svg"
+import icon2 from "../assets/icons/BIGenerativo.svg";
+import icon3 from "../assets/icons/Escabilidad.svg";
+import icon4 from "../assets/icons/AccesibilidadTotal.svg";
+import icon5 from "../assets/icons/SeguridadAvanzada.svg";
+import icon6 from "../assets/icons/Auditoria.svg";
+import icon7 from "../assets/icons/KPI.svg";
+import icon8 from "../assets/icons/ParaTodos.svg";
 
 const Hero: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
@@ -80,47 +88,21 @@ Hay una nueva consulta de interés:
             <p className="text-md font-bold leading-tight uppercase mb-2">
               Información Accesible y Gestionada para Todos
             </p>
-            <h1 className="text-4xl lg:text-5xl font-bold leading-tight mb-6">
-              Potencia Tu Estrategia Con{" "}
-              <span className="relative inline-block bg-gradient-to-r from-[#2EE0A2] via-[#26B7FF] to-[#2EE0A2] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x-slow before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/40 before:to-transparent before:animate-shine before:bg-[length:300%_100%] before:bg-clip-text before:text-transparent">
-                Mi Visualización
-              </span>
-              <span className="text-lg font-bold text-gray-200 block mt-2">
-                todos tus dashboards en un solo lugar
-              </span>
+            <h1 className="text-4xl lg:text-[45px] font-bold leading-tight mb-6">
+              <span className="bg-gradient-to-r from-[#2EE0A2] via-[#26B7FF] to-[#2EE0A2] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient-x-slow before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/40 before:to-transparent before:animate-shine before:bg-[length:300%_100%] before:bg-clip-text before:text-transparent">
+                Reduce Costos de Power BI
+              </span>{" "}
+              Un <span className="text-[#2EE0A2]">30%</span> Con Mi Visualization hoy
             </h1>
-            <ul className="space-y-3 text-lg text-white mb-8">
-              <li className="flex items-start">
-                <span className="text-green-400 font-bold mr-2">✔</span>
-                <span>
-                  Compatible con Power BI, Tableau, QuickSight, Excel, Looker y
-                  PDF.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-green-400 font-bold mr-2">✔</span>
-                <span>
-                  Administra perfiles, permisos y grupos según roles o áreas.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-green-400 font-bold mr-2">✔</span>
-                <span>
-                  Control total de accesos con tokens, sesiones y auditoría por
-                  usuario.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-green-400 font-bold mr-2">✔</span>
-                <span>Genera insights con IA usando lenguaje natural.</span>
-              </li>
-            </ul>
+            <p className="mb-6 text-white font-inter text-[23px] leading-1">
+              Con Mi Visualization, ahorra y escala: reportes centralizados, seguros y <span className="text-[#2EE0A2]">hasta 20 usuarios por $2,540 al año</span>.
+            </p>
           </div>
         </div>
 
         {/* Fila 1 - Columna 2: Formulario */}
         <div className="lg:col-span-1 flex justify-center items-center">
-          <div className="bg-white text-gray-900 p-6 rounded-3xl shadow-lg w-full max-w-md mx-h-md">
+          <div className="bg-gray-100 text-gray-900 p-6 rounded-3xl shadow-lg w-full max-w-lg mx-h-md">
             <h3 className="text-lg font-semibold text-center mb-4">
               ¿Interesado? <br />
               <span className="font-normal">
