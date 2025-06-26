@@ -79,7 +79,7 @@ const Demo = () => {
   };
 
   return (
-    <div className="hidden md:block max-w-7xl mx-auto p-6 space-y-6">
+    <div id="demo" className="hidden md:block max-w-7xl mx-auto p-6 space-y-6">
       {/* Dashboard Section */}
       <div className="relative overflow-hidden bg-white rounded-2xl shadow-sm border border-gray-100">
         {/* Decorative SVG */}

@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
                   background:
                     "linear-gradient(135deg, rgba(6, 182, 212, 0.20) 0%, rgba(59, 130, 246, 0.20) 100%)",
                 }}
-                href="#"
+                href="https://www.linkedin.com/company/mivisualization/posts/?feedView=all"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -106,40 +106,6 @@ const Footer: React.FC = () => {
                   />
                   <path
                     d="M3.33317 5.00033C4.25365 5.00033 4.99984 4.25413 4.99984 3.33366C4.99984 2.41318 4.25365 1.66699 3.33317 1.66699C2.4127 1.66699 1.6665 2.41318 1.6665 3.33366C1.6665 4.25413 2.4127 5.00033 3.33317 5.00033Z"
-                    stroke="#06B6D4"
-                    strokeWidth="1.66667"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </a>
-              <a
-                aria-label="YouTube"
-                className="text-[#4f5361] hover:text-white transition p-2"
-                style={{
-                  borderRadius: "12px",
-                  border: "1px solid rgba(6, 182, 212, 0.30)",
-                  background:
-                    "linear-gradient(135deg, rgba(6, 182, 212, 0.20) 0%, rgba(59, 130, 246, 0.20) 100%)",
-                }}
-                href="#"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                >
-                  <path
-                    d="M2.08309 14.1667C1.50095 11.4194 1.50095 8.58061 2.08309 5.83333C2.15959 5.55434 2.30738 5.30006 2.51193 5.0955C2.71649 4.89095 2.97077 4.74316 3.24976 4.66667C7.7193 3.92622 12.2802 3.92622 16.7498 4.66667C17.0288 4.74316 17.283 4.89095 17.4876 5.0955C17.6921 5.30006 17.8399 5.55434 17.9164 5.83333C18.4986 8.58061 18.4986 11.4194 17.9164 14.1667C17.8399 14.4457 17.6921 14.6999 17.4876 14.9045C17.283 15.1091 17.0288 15.2568 16.7498 15.3333C12.2802 16.0739 7.71929 16.0739 3.24976 15.3333C2.97077 15.2568 2.71649 15.1091 2.51193 14.9045C2.30738 14.6999 2.15959 14.4457 2.08309 14.1667Z"
-                    stroke="#06B6D4"
-                    strokeWidth="1.66667"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M8.3335 12.5L12.5002 10L8.3335 7.5V12.5Z"
                     stroke="#06B6D4"
                     strokeWidth="1.66667"
                     strokeLinecap="round"
@@ -302,7 +268,7 @@ const Footer: React.FC = () => {
                   background:
                     "linear-gradient(90deg, #06B6D4 0%, #3B82F6 100%)",
                 }}
-                href="#"
+                href="#home"
               >
                 Ponte en contacto
               </a>
