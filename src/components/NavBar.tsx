@@ -238,7 +238,7 @@ const NavBar: React.FC = () => {
         </button>
 
         {/* Links de navegación - Desktop */}
-        <ul className="hidden lg:flex lg:space-x-4 xl:space-x-8 text-sm font-medium text-white">
+        <ul className="hidden lg:flex lg:space-x-4 xl:space-x-8 font-inter font-normal text-[14.4px] leading-[21.6px] antialiased text-white">
           <li>
             <a
               href="#home"
@@ -312,7 +312,7 @@ const NavBar: React.FC = () => {
                 />
               </svg>
             </button>
-            <ul className="flex flex-col items-center space-y-6 text-lg font-medium text-white">
+            <ul className="flex flex-col items-center space-y-6 font-inter font-normal text-[14.4px] leading-[21.6px] tracking-normal antialiased text-white">
               <li>
                 <a
                   href="#home"

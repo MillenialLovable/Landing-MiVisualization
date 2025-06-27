@@ -150,7 +150,7 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({
                     : 'border-gray-200 hover:border-gray-300'
                 }`}
               >
-                <span className="text-sm font-medium text-gray-900">{style.name}</span>
+                <span className="text-sm font-medium text-gray-900 text-center">{style.name}</span>
               </button>
             ))}
           </div>

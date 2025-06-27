@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"]
+      },
       animation: {
         "gradient-x-slow": "gradient-x 5s ease-in-out infinite",
         shine: "shine 2s ease-in-out infinite",

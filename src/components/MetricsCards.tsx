@@ -44,7 +44,7 @@ export const MetricsCards: React.FC<MetricsCardsProps> = ({ primaryColor }) => {
                 <Icon size={24} />
               </div>
             </div>
-            <h3 className="text-gray-600 text-sm font-medium mb-2">{metric.title}</h3>
+            <h3 className="text-gray-600 text-sm font-light font-inter mb-2">{metric.title}</h3>
             <div className="flex items-end justify-between">
               <span className="text-3xl font-bold text-gray-900">{metric.value}</span>
             </div>

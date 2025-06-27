@@ -10,7 +10,7 @@ const PowerBi: React.FC = () => {
       {/* Línea de texto superior */}
       <div className="flex items-center justify-center gap-4 text-[9px] font-semibold text-[#a7aebf] uppercase mb-6 select-none tracking-wider">
         <div className="border-t border-[#d1d5db] w-28"></div>
-        <p className="leading-[1.1] text-center">
+        <p className="leading-[1.1] text-center font-inter font-semibold">  
           DONDE EL BI SE VUELVE ACCESIBLE,
           <br />
           PERSONALIZABLE Y SIN
@@ -22,17 +22,17 @@ const PowerBi: React.FC = () => {
       {/* Título y descripción */}
       <div className="max-w-auto mx-auto md:mx-0 text-center md:text-left">
         <p
-          className="text-[18px] font-semibold text-[#178EE8] tracking-widest mb-2 uppercase"
+          className="text-[18px] font-semibold font-inter text-[#178EE8] tracking-widest mb-2 uppercase"
           style={{ letterSpacing: "0.3em" }}
         >
-          S O L U C I Ó N   B . I .   I N T E G R A D A
+          S O L U C I Ó N   B I   I N T E G R A D A
         </p>
-        <h1 className="text-[36px] sm:text-[38px] md:text-[40px] font-extrabold leading-[1.1] mb-3">
+        <h1 className="text-[36px] sm:text-[38px] md:text-[40px] font-inter font-extrabold leading-[1.1] mb-3">
           Centraliza, Protege Y Optimiza Tu
           <br />
           Inteligencia De Negocios
         </h1>
-        <p className="text-[12px] sm:text-[14px] md:text-[16px] font-semibold leading-snug max-w-auto mx-auto md:mx-0 text-justify">
+        <p className="text-[12px] sm:text-[14px] md:text-[16px] font-inter font-bold leading-snug max-w-auto mx-auto md:mx-0 text-justify">
           MiVisualization es una plataforma segura y centralizada que integra
           reportes de Power BI, Tableau, QuickSight y Excel en un solo lugar.
           Permite gestionar usuarios, accesos y sesiones con control total y sin
@@ -180,8 +180,8 @@ const PowerBi: React.FC = () => {
               </svg>
             </div>
             <div>
-              <h3 className="text-[20px] font-bold mb-1">Acceso Unificado</h3>
-              <p className="text-[18px] text-[#6b7280] leading-snug">
+              <h3 className="text-[20px] font-inter font-semibold mb-1">Acceso Unificado</h3>
+              <p className="font-inter font-normal text-[14.4px] leading-[21.6px] text-[#6b7280] antialiased">
                 Interfaz intuitiva diseñada para usuarios de todos los niveles
                 técnicos. Desde principiantes hasta expertos en análisis de
                 datos.
@@ -211,8 +211,8 @@ const PowerBi: React.FC = () => {
               </svg>
             </div>
             <div>
-              <h3 className="text-[20px] font-bold mb-1">Acceso total</h3>
-              <p className="text-[18px] text-[#6b7280] leading-snug">
+              <h3 className="text-[20px] font-semibold font-inter mb-1">Acceso total</h3>
+              <p className="font-inter font-normal text-[14.4px] leading-[21.6px] text-[#6b7280] antialiased">
                 Conecta y visualiza datos desde múltiples fuentes de manera
                 unificada. Power BI, Tableau, Excel y más en una sola
                 plataforma.
@@ -249,8 +249,8 @@ const PowerBi: React.FC = () => {
               </svg>
             </div>
             <div>
-              <h3 className="text-[20px] font-bold mb-1">Seguridad avanzada</h3>
-              <p className="text-[18px] text-[#6b7280] leading-snug">
+              <h3 className="text-[20px] font-semibold font-inter mb-1">Seguridad avanzada</h3>
+              <p className="font-inter font-normal text-[14.4px] leading-[21.6px] text-[#6b7280] antialiased">
                 Protección de datos de nivel empresarial con encriptación
                 end-to-end y controles de acceso granulares.
               </p>
@@ -293,8 +293,8 @@ const PowerBi: React.FC = () => {
               </svg>
             </div>
             <div>
-              <h3 className="text-[20px] font-bold mb-1">Todo en uno</h3>
-              <p className="text-[18px] text-[#6b7280] leading-snug">
+              <h3 className="text-[20px] font-inter font-semibold mb-1">Todo en uno</h3>
+              <p className="font-inter font-normal text-[14.4px] leading-[21.6px] text-[#6b7280] antialiased">
                 Solución completa que integra análisis, visualización, reportes
                 y colaboración en una experiencia unificada..
               </p>

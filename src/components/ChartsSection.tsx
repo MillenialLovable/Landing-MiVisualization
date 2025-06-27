@@ -47,7 +47,7 @@ export const ChartsSection: React.FC<ChartsSectionProps> = ({ primaryColor }) =>
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
       {/* Daily Sessions Chart */}
       <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">Historial de sesiones por día</h3>
+        <h3 className="text-lg font-semibold text-gray-500 mb-4">Historial de sesiones por día</h3>
         <div className="h-48">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={dailyData}>
@@ -61,7 +61,7 @@ export const ChartsSection: React.FC<ChartsSectionProps> = ({ primaryColor }) =>
 
       {/* Device Sessions Pie Chart */}
       <div className="hidden lg:block bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">Sesiones por dispositivo</h3>
+        <h3 className="text-lg font-semibold font-inter text-gray-900 mb-4">Sesiones por dispositivo</h3>
         <div className="h-48">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
@@ -99,7 +99,7 @@ export const ChartsSection: React.FC<ChartsSectionProps> = ({ primaryColor }) =>
         <div className="space-y-3">
           {workAreas.map((item, index) => (
             <div key={index} className="flex items-center justify-between">
-              <span className="text-sm text-gray-600 w-20">{item.area}</span>
+              <span className="text-sm text-gray-600 w-20 font-inter font-light">{item.area}</span>
               <div className="flex-1 mx-3">
                 <div className="bg-gray-200 rounded-full h-2">
                   <div 

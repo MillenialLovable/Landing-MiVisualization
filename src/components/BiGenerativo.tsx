@@ -16,13 +16,13 @@ const BiGenerativo: React.FC = () => {
           INTELIGENCIA ARTIFICIAL
         </p>
         <h2
-          className="text-[11px] sm:text-[12px] md:text-[13px] font-semibold text-[#0091ff] uppercase tracking-widest mb-1 select-none"
+          className="text-[11px] sm:text-[12px] md:text-[13px] font-semibold font-inter text-[#0091ff] uppercase tracking-widest mb-1 select-none"
           style={{ letterSpacing: "0.3em" }}
         >
           IMPULSA TUS DECISIONES
         </h2>
         <h1
-          className="text-[22px] sm:text-[26px] md:text-[28px] font-extrabold leading-[1.1] max-w-auto mb-1"
+          className="text-[22px] sm:text-[26px] md:text-[28px] font-extrabold font-inter leading-[1.1] max-w-auto mb-1"
           style={{
             background: "linear-gradient(90deg, #2EE0A2 12.5%, #26B7FF 40.87%)",
             backgroundClip: "text",
@@ -38,7 +38,7 @@ const BiGenerativo: React.FC = () => {
           <br />
           De Tu BI
         </h1>
-        <p className="text-[13px] sm:text-[14px] md:text-[15px] max-w-auto font-semibold text-[#1f2937] mb-10 leading-[1.3]">
+        <p className="text-[13px] sm:text-[14px] md:text-[15px] max-w-auto font-inter font-semibold text-[#1f2937] mb-10 leading-[1.3] max-w-[70em]">
           Explora tus datos con mayor agilidad mediante preguntas en lenguaje
           natural. Con MiVisualization, la IA generativa transforma la manera en
           que accedes a insights, permitiéndote interactuar con dashboards sin

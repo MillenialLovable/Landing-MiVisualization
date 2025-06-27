@@ -52,18 +52,18 @@ const ConfigurablePlatform: React.FC = () => {
       <div className="relative z-10">
         {/* Encabezado superior */}
         <div className="flex flex-col items-center justify-center mb-8 mt-16">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF] tracking-widest text-md font-semibold">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF] tracking-[0.45em] text-md font-semibold">
             DISEÑADO PARA AJUSTARSE
           </span>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF] tracking-widest text-md font-semibold">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF] tracking-[0.45em] text-md font-semibold">
             A TI
           </span>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-2 mt-2">
+          <h2 className="text-3xl md:text-4xl font-extrabold font-inter text-center mb-2 mt-2">
             Una Plataforma, Múltiples Formas De
             <br />
             Configurarla
           </h2>
-          <p className="text-[#a7aebf] text-base md:text-lg font-medium text-center max-w-2xl">
+          <p className="font-inter font-normal text-[14.4px] leading-[21.6px] text-[#a7aebf] text-center max-w-3xl antialiased mb-3">
             Desde la identidad visual hasta la organización de dashboards por
             unidad o categoría, MiVisualization permite una configuración
             granular que garantiza eficiencia operativa, control de accesos y
@@ -84,7 +84,7 @@ const ConfigurablePlatform: React.FC = () => {
           ].map((tab) => (
             <span
               key={tab}
-              className="bg-[#12263A] hover:bg-[#1A3450] text-xs md:text-sm font-bold rounded-full px-4 py-2 transition-colors cursor-pointer select-none"
+              className="bg-[#12263A] hover:bg-[#1A3450] text-xs md:text-sm font-normal rounded-full px-4 py-2 transition-colors cursor-pointer select-none"
             >
               {tab}
             </span>
@@ -216,7 +216,7 @@ const ConfigurablePlatform: React.FC = () => {
             </div>
             <div className="flex flex-col">
               <h3 className="text-lg font-bold mb-2">Acceso múltiple</h3>
-              <p className="text-[#a7aebf] text-base">
+              <p className="text-[#a7aebf] font-inter font-light text-[14.4px] leading-[21.6px]">
                 Accede a tus dashboards desde cualquier dispositivo, en
                 cualquier momento. Sincronización en tiempo real entre web,
                 móvil y tablet.
@@ -340,7 +340,7 @@ const ConfigurablePlatform: React.FC = () => {
             </div>
             <div className="flex flex-col">
               <h3 className="text-lg font-bold mb-2">Reducción de costos</h3>
-              <p className="text-[#a7aebf] text-base">
+              <p className="text-[#a7aebf] font-inter font-light text-[14.4px] leading-[21.6px]">
                 Elimina la necesidad de múltiples licencias y reduce los costos
                 operativos hasta un 60% consolidando todas tus herramientas de
                 BI.
@@ -451,7 +451,7 @@ const ConfigurablePlatform: React.FC = () => {
             </div>
             <div className="flex flex-col">
               <h3 className="text-lg font-bold mb-2">Personaliza</h3>
-              <p className="text-[#a7aebf] text-base">
+              <p className="text-[#a7aebf] font-inter font-light text-[14.4px] leading-[21.6px]">
                 Personaliza accesos, roles, contenido y diseño para alinear la
                 plataforma con tu estructura organizacional.
               </p>

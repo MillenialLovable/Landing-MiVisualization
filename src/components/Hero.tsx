@@ -92,7 +92,7 @@ Hay una nueva consulta de interés:
                 hasta un <span className="text-[#2EE0A2]">30%</span> con mi
                 visualization hoy
               </h1>
-              <p className="mb-6 text-white font-inter text-[23px] leading-1">
+              <p className="mb-6 text-white font-inter font-semibold text-[23px] leading-1">
                 Con Mi Visualization, ahorra y escala: reportes centralizados,
                 seguros y{" "}
                 <span className="text-[#2EE0A2]">
@@ -162,9 +162,9 @@ Hay una nueva consulta de interés:
         {/* Fila 1 - Columna 2: Formulario */}
         <div className="lg:col-span-1 flex justify-center items-center">
           <div className="bg-gray-100 text-gray-900 p-6 rounded-3xl shadow-lg w-full max-w-lg min-w-[280px] overflow-auto mx-h-md">
-            <h3 className="text-lg font-semibold text-center mb-4">
+            <h3 className="text-lg font-bold font-inter text-center mb-4">
               ¿Interesado? <br />
-              <span className="font-normal">
+              <span className="font-bold font-inter">
                 Comienza o pide una demostración
               </span>
             </h3>
