@@ -35,13 +35,13 @@ const Footer: React.FC = () => {
                   <br />
                   MiVisualization en acción?
                 </h2>
-                <p className="text-[#4f5361] text-xs md:text-xs lg:text-sm xl:text-lg leading-relaxed mb-4 w-full md:w-[330px]">
+                <p className="text-[#4f5361] text-xs md:text-xs lg:text-sm xl:text-lg font-lato font-normal leading-relaxed mb-4 w-full md:w-[330px]">
                   Descubre cómo nuestra plataforma puede transformar tu gestión
                   y visualización de datos. Solicita una demo ahora y nuestro
                   equipo te mostrará cómo puede impulsar tu negocio.
                 </p>
                 <a
-                  className="text-[#1a6dbb] font-semibold text-sm md:text-sm lg:text-sm xl:text-lg flex items-center justify-center md:justify-start hover:underline"
+                  className="text-[#1a6dbb] font-normal text-sm md:text-sm lg:text-sm xl:text-lg flex items-center justify-center md:justify-start hover:underline"
                   href="#"
                 >
                   Ponte en contacto
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
               src={logo2}
               width="24"
             />
-            <p className="text-[#a3b0c0] leading-relaxed max-w-[280px]">
+            <p className="text-[#a3b0c0] leading-relaxed max-w-[280px] font-lato font-light">
               Transformamos datos en decisiones inteligentes. La plataforma de
               Business Intelligence más completa del mercado.
             </p>
@@ -118,7 +118,7 @@ const Footer: React.FC = () => {
 
           <div className="md:col-span-2 space-y-2">
             <h4 className="font-semibold text-white mb-3">Enlaces Rápidos</h4>
-            <ul className="space-y-1 text-[#a3b0c0]">
+            <ul className="space-y-1 text-[#a3b0c0] font-normal">
               <li>
                 <a className="hover:text-white transition" href="#">
                   Home
