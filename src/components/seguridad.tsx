@@ -1,8 +1,8 @@
 import React from "react";
-import seguridadIcon1 from "../assets/hugeicons_access.svg";
-import seguridadIcon2 from "../assets/hugeicons_audit-02.svg";
-import seguridadIcon3 from "../assets/bx_data.svg";
-import seguridadIcon4 from "../assets/uim_lock-access.svg";
+import seguridadIcon1 from "../assets/icons-Seguridad/AccesosGranulares.svg";
+import seguridadIcon2 from "../assets/icons-Seguridad/AuditoriaDetallada.svg";
+import seguridadIcon3 from "../assets/icons-Seguridad/CifradoDeDatos.svg";
+import seguridadIcon4 from "../assets/icons-Seguridad/AccesosControlados.svg";
 import BlogCarrusel from "./BlogCarrusel";
 
 const Seguridad: React.FC = () => {
@@ -84,10 +84,8 @@ const Seguridad: React.FC = () => {
               <div className="bg-[#041B2E] rounded-xl w-[64px] h-[64px] md:w-[70px] md:h-[70px] flex items-center justify-center">
                 <img
                   alt="Icono de servidor azul"
-                  className="w-7 h-7"
-                  height="20"
+                  className="w-9 h-9"
                   src={seguridadIcon1}
-                  width="20"
                 />
               </div>
               <p className="text-[11px] xl:text-[18px] font-bold text-[#00CFFF] leading-[22px] max-w-[90px]">
@@ -98,10 +96,8 @@ const Seguridad: React.FC = () => {
               <div className="bg-[#041B2E] rounded-xl w-[64px] h-[64px] md:w-[70px] md:h-[70px] flex items-center justify-center">
                 <img
                   alt="Icono de servidor azul"
-                  className="w-7 h-7"
-                  height="20"
+                  className="w-9 h-9"
                   src={seguridadIcon2}
-                  width="20"
                 />
               </div>
               <p className="text-[11px] xl:text-[18px] 2xl:text-[20px] font-bold text-[#00CFFF] leading-[22px] max-w-[90px]">
@@ -112,10 +108,8 @@ const Seguridad: React.FC = () => {
               <div className="bg-[#041B2E] rounded-xl w-[64px] h-[64px] md:w-[70px] md:h-[70px] flex items-center justify-center">
                 <img
                   alt="Icono de servidor azul"
-                  className="w-7 h-7"
-                  height="20"
+                  className="w-9 h-9"
                   src={seguridadIcon3}
-                  width="20"
                 />
               </div>
               <p className="text-[11px] xl:text-[18px] 2xl:text-[20px] font-bold text-[#00CFFF] leading-[22px] max-w-[90px]">
@@ -126,10 +120,8 @@ const Seguridad: React.FC = () => {
               <div className="bg-[#041B2E] rounded-xl w-[64px] h-[64px] md:w-[70px] md:h-[70px] flex items-center justify-center">
                 <img
                   alt="Icono de servidor azul"
-                  className="w-7 h-7"
-                  height="20"
+                  className="w-9 h-9"
                   src={seguridadIcon4}
-                  width="20"
                 />
               </div>
               <p className="text-[11px] xl:text-[18px] font-bold text-[#00CFFF] leading-[22px] max-w-[90px]">

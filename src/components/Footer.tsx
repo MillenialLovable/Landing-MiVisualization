@@ -22,14 +22,14 @@ const Footer: React.FC = () => {
               className="flex items-center justify-center md:justify-start p-4 sm:p-8 rounded-2xl md:rounded-l-2xl"
               style={{ background: "rgba(245, 246, 247, 0.92)" }}
             >
-              <div className="hidden xl:block bg-[#1a6dbb] rounded-lg p-2 md:p-2 mr-4 flex items-center justify-center w-14 h-14 md:w-16 md:h-16">
+              <div className="max-w-[320px] md:max-w-[400px] text-center md:text-left">
+                <div className="hidden xl:block bg-transparent mb-4 flex items-center justify-center">
                 <img
                   src={nube}
                   alt="Flecha derecha"
-                  className="w-10 h-12 ml-1"
+                  className=" ml-1"
                 />
               </div>
-              <div className="max-w-[320px] md:max-w-[400px] text-center md:text-left">
                 <h2 className="text-xl md:text-2xl lg:text-2xl xl:text-3xl font-extrabold text-[#0f2f5e] leading-tight mb-2">
                   ¿Te gustaría ver
                   <br />
@@ -51,7 +51,7 @@ const Footer: React.FC = () => {
             <img
               src={logo}
               alt="MiVisualization Dashboard Preview"
-              className="hidden md:block w-auto md:w-[400px] lg:w-[600px] xl:w-[800px] 2xl:w-[800px] h-[0px] md:h-[280px] lg:h-[310px] xl:h-[390px] 2xl:h-[390px] rounded-lg absolute md:absolute md:top-5 lg:top-2 xl:top-0 2xl:top-3 md:transform-none md:right-[-20px] lg:right-[40px] xl:-right-[70px] 2xl:-right-[90px] mt-4 md:mt-0"
+              className="hidden md:block w-auto md:w-[400px] lg:w-[600px] xl:w-[800px] 2xl:w-[800px] h-[0px] md:h-[280px] lg:h-[310px] xl:h-[460px] 2xl:h-[450px] rounded-lg absolute md:absolute md:top-5 lg:top-2 xl:top-0 2xl:top-3 md:transform-none md:right-[-20px] lg:right-[40px] xl:-right-[70px] 2xl:-right-[90px] mt-4 md:mt-0"
             />
           </div>
         </div>
@@ -279,7 +279,7 @@ const Footer: React.FC = () => {
         {/* Copyright section */}
         <div className="mt-16 border-t border-[#1a6dbb] pt-6 text-[#a3b0c0] font-lato text-xs md:text-sm flex flex-col md:flex-row justify-between">
           <p>© 2024 Mi Visualization. Todos los derechos reservados.</p>
-          <div className="space-x-4 mt-3 md:mt-0">
+          {/* <div className="space-x-4 mt-3 md:mt-0">
             <a className="hover:text-white transition" href="#">
               Política de Privacidad
             </a>
@@ -289,7 +289,7 @@ const Footer: React.FC = () => {
             <a className="hover:text-white transition" href="#">
               Política de Cookies
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
