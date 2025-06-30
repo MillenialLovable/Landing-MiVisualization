@@ -9,25 +9,25 @@ const Seguridad: React.FC = () => {
   return (
     <section
       id="seguridad"
-      className="relative bg-[#09243F] py-12 md:py-16 px-4 md:px-8 lg:px-16 text-white overflow-hidden transform -skew-y-3"
+      className="relative bg-[#09243F] py-12 md:py-16 px-4 md:px-8 lg:px-16 font-lato text-white overflow-hidden transform -skew-y-3"
     >
       <div className="transform skew-y-3">
         {/* Encabezado superior */}
         <div className="flex flex-col items-center justify-center mb-8 md:mb-12">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF] tracking-widest text-sm md:text-md font-semibold">
+          <span className="text-transparent font-lato bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF] tracking-widest text-sm md:text-md font-semibold">
             Autenticación y Seguridad
           </span>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-center mb-2 mt-2 max-w-3xl">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-lato text-center mb-2 mt-2 max-w-3xl">
             Protege tus Datos con la Seguridad más Avanzada
           </h2>
         </div>
         <div className="flex flex-col items-center">
           <div className="flex flex-col md:flex-row md:justify-center md:gap-x-8 lg:gap-x-20 gap-y-8 md:gap-y-12 max-w-6xl">
             <div className="bg-[#06182C] rounded-xl p-6 md:p-8 max-w-md w-full shadow-lg">
-              <h3 className="font-bold text-[15px] md:text-[18px] leading-[20px] mb-2">
+              <h3 className="font-bold text-[15px] md:text-[18px] font-lato leading-[20px] mb-2">
                 Beneficios de Seguridad
               </h3>
-              <p className="text-[12px] md:text-[14px] leading-[16px] font-semibold text-[#7B8A9E] mb-6">
+              <p className="text-[12px] md:text-[14px] leading-[16px] font-lato font-semibold text-[#7B8A9E] mb-6">
                 Seguridad avanzada para proteger tus datos y cumplir con las
                 normativas.
               </p>

@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["Inter", "sans-serif"]
+        inter: ["Inter", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
       },
       animation: {
         "gradient-x-slow": "gradient-x 5s ease-in-out infinite",

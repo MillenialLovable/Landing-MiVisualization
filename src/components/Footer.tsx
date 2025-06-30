@@ -6,7 +6,7 @@ import logo2 from "../assets/logo2.svg";
 const Footer: React.FC = () => {
   return (
     <section
-      className="text-white mt-20"
+      className="text-white mt-20 font-lato"
       style={{
         backgroundImage: `url('data:image/svg+xml,%3Csvg viewBox="0 0 2000 800" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M2817.66 1716.14C2731.58 2248.82 2150.43 2475.01 1703.24 2776.96C1324.09 3032.96 951.634 3354.53 500.094 3281.07C20.1298 3202.99 -321.318 2820.67 -575.67 2406.21C-878.312 1913.09 -1282.63 1327.4 -1013.1 815.42C-746.675 309.32 -24.5526 422.856 533.768 298.766C1084.9 176.275 1653.54 -181.578 2133.25 116.129C2651.8 437.945 2915.03 1113.66 2817.66 1716.14Z" fill="%2309243F"/%3E%3C/svg%3E')`,
         backgroundSize: "cover",
@@ -254,15 +254,15 @@ const Footer: React.FC = () => {
                 background: "#09243F",
               }}
             >
-              <p className="text-[#a3b0c0] text-md mb-3 font-semibold">
+              <p className="text-[#a3b0c0] text-md mb-3 font-lato font-semibold">
                 ¿Listo para transformar tus datos?
               </p>
-              <p className="text-[#a3b0c0] text-md mb-4 leading-tight">
+              <p className="text-[#a3b0c0] text-md mb-4 font-lato leading-tight">
                 Programa una demo personalizada y descubre el potencial de Mi
                 Visualization
               </p>
               <a
-                className="inline-block text-white text-md font-semibold px-4 py-2 rounded-xl transition"
+                className="inline-block text-white text-md font-lato font-semibold px-4 py-2 rounded-xl transition"
                 style={{
                   borderRadius: "12px",
                   background:
@@ -277,7 +277,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Copyright section */}
-        <div className="mt-16 border-t border-[#1a6dbb] pt-6 text-[#a3b0c0] text-xs md:text-sm flex flex-col md:flex-row justify-between">
+        <div className="mt-16 border-t border-[#1a6dbb] pt-6 text-[#a3b0c0] font-lato text-xs md:text-sm flex flex-col md:flex-row justify-between">
           <p>© 2024 Mi Visualization. Todos los derechos reservados.</p>
           <div className="space-x-4 mt-3 md:mt-0">
             <a className="hover:text-white transition" href="#">

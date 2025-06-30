@@ -58,14 +58,14 @@ const BlogCarrusel: React.FC = () => {
         ];
 
   return (
-    <div className="flex flex-col items-center w-full px-2 py-4">
+    <div className="flex flex-col items-center w-full px-2 py-4 font-lato">
       <div className="relative w-full">
         <button
           onClick={handlePrev}
           className="absolute left-0 top-1/2 -translate-y-1/2 bg-[#0D1E33] rounded-full p-2 z-10 hover:bg-[#00BFFF] transition"
           aria-label="Anterior"
         >
-          <span className="text-2xl">{'‹'}</span>
+          <span className="text-2xl">{"‹"}</span>
         </button>
         <div className="flex justify-center gap-6">
           {visiblePosts.map((post) => (
@@ -107,20 +107,20 @@ const BlogCarrusel: React.FC = () => {
         </div>
         <button
           onClick={handleNext}
-          className="absolute right-0 top-1/2 -translate-y-1/2 bg-[#0D1E33] rounded-full p-2 z-10 hover:bg-[#00BFFF] transition"
+          className="absolute right-0 top-1/2 -translate-y-1/2 bg-[#0D1E33] font-lato rounded-full p-2 z-10 hover:bg-[#00BFFF] transition"
           aria-label="Siguiente"
         >
-          <span className="text-2xl">{'›'}</span>
+          <span className="text-2xl font-lato">{"›"}</span>
         </button>
       </div>
       {/* Indicadores */}
-      <div className="flex justify-center mt-4 gap-2">
+      <div className="flex justify-center font-lato mt-4 gap-2">
         {Array.from({ length: Math.ceil(blogPosts.length / visibleCards) }).map(
           (_, idx) => (
             <button
               key={idx}
               onClick={() => setCurrent(idx * visibleCards)}
-              className={`w-3 h-3 rounded-full ${
+              className={`w-3 h-3 font-lato rounded-full ${
                 idx * visibleCards === current ? "bg-[#00BFFF]" : "bg-[#1A3350]"
               }`}
               aria-label={`Ir a la tarjeta ${idx + 1}`}
