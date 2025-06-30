@@ -99,10 +99,10 @@ const ConfigurablePlatform: React.FC = () => {
       <div className="relative z-10">
         {/* Encabezado superior */}
         <div className="flex flex-col items-center justify-center mb-8 mt-16">
-          <span className="text-transparent text-[17px] bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF] tracking-[0.45em] text-md font-semibold">
+          <span className="text-transparent text-[17px] bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF]  font-semibold">
             DISEÑADO PARA AJUSTARSE
           </span>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF] tracking-[0.45em] text-md font-semibold">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF] text-md font-semibold">
             A TI
           </span>
           <h2 className="text-3xl md:text-[40px] font-extrabold font-lato text-center mb-2 mt-2">
