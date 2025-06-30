@@ -24,7 +24,7 @@ const Seguridad: React.FC = () => {
         <div className="flex flex-col items-center">
           <div className="flex flex-col md:flex-row md:justify-center md:gap-x-8 lg:gap-x-20 gap-y-8 md:gap-y-12 max-w-6xl">
             <div className="bg-[#06182C] rounded-xl p-6 md:p-8 max-w-md w-full shadow-lg">
-              <h3 className="font-bold text-[15px] md:text-[18px] font-lato leading-[20px] mb-2">
+              <h3 className="font-normal text-[15px] md:text-[18px] font-lato leading-[20px] mb-2">
                 Beneficios de Seguridad
               </h3>
               <p className="text-[12px] md:text-[14px] leading-[16px] font-lato font-semibold text-[#7B8A9E] mb-6">
@@ -36,7 +36,7 @@ const Seguridad: React.FC = () => {
                   <span className="mt-[3px] w-4 h-4 rounded-full bg-[#00CFFF] flex items-center justify-center shrink-0">
                     <i className="fas fa-check text-[#05203C] text-[10px]"></i>
                   </span>
-                  Control total sobre quién ve qué datos.
+                  Control total sobre quién ve tus datos.
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-[3px] w-4 h-4 rounded-full bg-[#00CFFF] flex items-center justify-center shrink-0">
@@ -70,7 +70,7 @@ const Seguridad: React.FC = () => {
               </h3>
               <p className="text-[14px] md:text-[15px] leading-[24px] md:leading-[30px] font-semibold text-[#7B8A9E]">
                 En
-                <span className="font-bold">MiVisualization</span>, la seguridad
+                <span className="font-bold"> MiVisualization</span>, la seguridad
                 de tus datos es nuestra máxima prioridad. Con tecnología de
                 encriptación de última generación, control granular de accesos y
                 una auditoría exhaustiva de todos los registros de usuario,
