@@ -27,7 +27,7 @@ const Seguridad: React.FC = () => {
               <h3 className="font-normal text-[15px] md:text-[18px] font-lato leading-[20px] mb-2">
                 Beneficios de Seguridad
               </h3>
-              <p className="text-[12px] md:text-[14px] leading-[16px] font-lato font-semibold text-[#7B8A9E] mb-6">
+              <p className="text-[12px] md:text-[14px] xl:text-[16px] leading-[16px] font-lato font-normal text-[#7B8A9E] mb-6">
                 Seguridad avanzada para proteger tus datos y cumplir con las
                 normativas.
               </p>
@@ -90,7 +90,7 @@ const Seguridad: React.FC = () => {
                   width="20"
                 />
               </div>
-              <p className="text-[11px] md:text-[12px] font-bold text-[#00CFFF] leading-[16px] max-w-[90px]">
+              <p className="text-[11px] xl:text-[18px] font-bold text-[#00CFFF] leading-[22px] max-w-[90px]">
                 Accesos Granulares
               </p>
             </div>
@@ -104,7 +104,7 @@ const Seguridad: React.FC = () => {
                   width="20"
                 />
               </div>
-              <p className="text-[11px] md:text-[12px] font-bold text-[#00CFFF] leading-[16px] max-w-[90px]">
+              <p className="text-[11px] xl:text-[18px] 2xl:text-[20px] font-bold text-[#00CFFF] leading-[22px] max-w-[90px]">
                 Auditoría Detallada
               </p>
             </div>
@@ -118,7 +118,7 @@ const Seguridad: React.FC = () => {
                   width="20"
                 />
               </div>
-              <p className="text-[11px] md:text-[12px] font-bold text-[#00CFFF] leading-[16px] max-w-[90px]">
+              <p className="text-[11px] xl:text-[18px] 2xl:text-[20px] font-bold text-[#00CFFF] leading-[22px] max-w-[90px]">
                 Cifrado de Datos
               </p>
             </div>
@@ -132,8 +132,8 @@ const Seguridad: React.FC = () => {
                   width="20"
                 />
               </div>
-              <p className="text-[11px] md:text-[12px] font-bold text-[#00CFFF] leading-[16px] max-w-[90px]">
-                Prevención de accesos no autorizados
+              <p className="text-[11px] xl:text-[18px] font-bold text-[#00CFFF] leading-[22px] max-w-[90px]">
+                Accesos controlados
               </p>
             </div>
           </div>
@@ -145,7 +145,7 @@ const Seguridad: React.FC = () => {
           <h1 className="font-extrabold text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight mb-4 max-w-3xl mx-auto">
             Insights Y Novedades Sobre BI Y Analítica
           </h1>
-          <p className="text-[#8B9BB8] text-xs sm:text-sm max-w-xl mx-auto leading-relaxed">
+          <p className="text-[#8B9BB8] text-[11px] xl:text-[18px] text-xs sm:text-sm max-w-xl mx-auto leading-relaxed">
             Mantente al día con las mejores prácticas, tendencias y casos de
             éxito en el mundo de la analítica de datos.
           </p>
