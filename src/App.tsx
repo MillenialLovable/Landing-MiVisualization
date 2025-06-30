@@ -16,7 +16,6 @@ function Home() {
       <Hero />
       <PowerBi />
       <ConfigurablePlatform />
-      <Demo />
       <BiGenerativo />
       <Seguridad />
       <Footer />
