@@ -71,16 +71,16 @@ const BlogCarrusel: React.FC = () => {
           {visiblePosts.map((post) => (
             <article
               key={post.id}
-              className="flex flex-row bg-gradient-to-br from-[#112B4A] to-[#0D1E33] rounded-2xl shadow-lg overflow-hidden hover:scale-[1.03] transition-transform duration-300 w-full cursor-pointer"
+              className="flex flex-col xl:flex-row bg-gradient-to-br from-[#112B4A] to-[#0D1E33] rounded-2xl shadow-lg overflow-hidden hover:scale-[1.03] transition-transform duration-300 w-full cursor-pointer"
               onClick={() => handleCardClick(post.link)}
             >
               <img
                 alt={post.alt}
-                className="w-[300px] h-auto object-cover flex-shrink-0"
+                className="w-full xl:w-[300px] h-auto object-cover flex-shrink-0"
                 src={post.img}
               />
-              <div className="p-4 md:p-6 flex flex-col justify-between flex-1">
-                <h2 className="text-[#00BFFF] font-semibold text-base sm:text-xl md:text-2xl leading-snug mb-4 md:mb-0 drop-shadow-md">
+              <div className="p-3 md:pt-2 md:pb-4 md:px-4 xl:p-6 flex flex-col justify-between flex-1">
+                <h2 className="text-[#00BFFF] font-semibold text-sm sm:text-base md:text-lg xl:text-2xl leading-snug mb-3 md:mb-2 xl:mb-4 drop-shadow-md">
                   {post.title}
                 </h2>
                 <div className="flex items-center justify-between text-[#6B7A99] text-xs sm:text-sm md:text-base">
