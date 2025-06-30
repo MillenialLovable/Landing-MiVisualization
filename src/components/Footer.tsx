@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/Analitica2.png";
-import nube from "../assets/nube.svg";
+import nube from "../assets/VerDemostracion.svg";
 import logo2 from "../assets/logo2.svg";
 
 const Footer: React.FC = () => {
