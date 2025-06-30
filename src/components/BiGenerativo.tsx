@@ -31,12 +31,12 @@ const BiGenerativo: React.FC = () => {
           Inteligencia
           <span className="text-[#0091ff]">
             {" "}
-            Artificial Generativa AI Servicio
+            Artificial Generativa AI Servicio De
           </span>
           <br />
-          De Tu BI
+          Tu BI
         </h1>
-        <p className="text-[13px] sm:text-[14px] md:text-[15px] max-w-auto font-lato font-semibold text-[#1f2937] mb-10 leading-[1.3] max-w-[70em]">
+        <p className="text-[13px] sm:text-[14px] md:text-[15px] max-w-auto font-lato font-normal text-[#1f2937] mb-10 leading-[1.3] max-w-[70em] padding-x-4">
           Explora tus datos con mayor agilidad mediante preguntas en lenguaje
           natural. Con MiVisualization, la IA generativa transforma la manera en
           que accedes a insights, permitiéndote interactuar con dashboards sin
