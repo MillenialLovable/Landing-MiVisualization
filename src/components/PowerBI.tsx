@@ -13,7 +13,7 @@ const PowerBi: React.FC = () => {
       {/* Línea de texto superior */}
       <div className="flex items-center justify-center gap-4 text-[9px] font-semibold text-[#a7aebf] uppercase mb-6 select-none tracking-wider">
         <div className="border-t border-[#d1d5db] w-28"></div>
-        <p className="leading-[1.1] text-center font-lato font-semibold">
+        <p className="text-[16px] leading-[1.1] text-center font-lato font-semibold">
           DONDE EL BI SE VUELVE ACCESIBLE,
           <br />
           PERSONALIZABLE Y SIN
@@ -25,7 +25,7 @@ const PowerBi: React.FC = () => {
       {/* Título y descripción */}
       <div className="max-w-auto mx-auto md:mx-0 text-center md:text-left">
         <p
-          className="text-[18px] font-semibold font-lato text-[#178EE8] tracking-widest mb-2 uppercase"
+          className="text-[17px] font-semibold font-lato text-[#178EE8] tracking-widest mb-2 uppercase"
           style={{ letterSpacing: "0.3em" }}
         >
           S O L U C I Ó N   B I   I N T E G R A D A
@@ -90,7 +90,7 @@ const PowerBi: React.FC = () => {
           </svg>
         </div>
         <div
-          className="relative mt-12 mb-5 sm:mb-8 md:mb-[100px] flex flex-col md:flex-row justify-center items-center w-full max-w-[1100px] mx-auto gap-3 sm:gap-1 md:gap-10 xl:gap-4 2xl:gap-0"
+          className="relative mt-12 mb-5 sm:mb-8 md:mb-[150px] flex flex-col md:flex-row justify-center items-center w-full max-w-[1100px] mx-auto gap-3 sm:gap-1 md:gap-10 xl:gap-4 2xl:gap-0"
           style={{ minHeight: "auto" }}
         >
           {/* Imagen superpuesta arriba a la derecha */}
@@ -183,10 +183,10 @@ const PowerBi: React.FC = () => {
               </svg>
             </div>
             <div>
-              <h3 className="text-[20px] font-lato font-semibold mb-1">
+              <h3 className="xl:text-[16px] 2xl:text-[20px] font-lato font-semibold mb-1">
                 Acceso Unificado
               </h3>
-              <p className="font-lato font-normal text-[14.4px] leading-[21.6px] text-[#6b7280] antialiased">
+              <p className="font-lato font-normal text-[14px] leading-[21.6px] text-[#6b7280] antialiased">
                 Interfaz intuitiva diseñada para usuarios de todos los niveles
                 técnicos. Desde principiantes hasta expertos en análisis de
                 datos.
@@ -216,10 +216,10 @@ const PowerBi: React.FC = () => {
               </svg>
             </div>
             <div>
-              <h3 className="text-[20px] font-semibold font-lato mb-1">
+              <h3 className="xl:text-[16px] 2xl:text-[20px] font-semibold font-lato mb-1">
                 Acceso total
               </h3>
-              <p className="font-lato font-normal text-[14.4px] leading-[21.6px] text-[#6b7280] antialiased">
+              <p className="font-lato font-normal text-[14px] leading-[21.6px] text-[#6b7280] antialiased">
                 Conecta y visualiza datos desde múltiples fuentes de manera
                 unificada. Power BI, Tableau, Excel y más en una sola
                 plataforma.
@@ -256,10 +256,10 @@ const PowerBi: React.FC = () => {
               </svg>
             </div>
             <div>
-              <h3 className="text-[20px] font-semibold font-lato mb-1">
+              <h3 className="xl:text-[16px] 2xl:text-[20px] font-semibold font-lato mb-1">
                 Seguridad avanzada
               </h3>
-              <p className="font-lato font-normal text-[14.4px] leading-[21.6px] text-[#6b7280] antialiased">
+              <p className="font-lato font-normal text-[14px] leading-[21.6px] text-[#6b7280] antialiased">
                 Protección de datos de nivel empresarial con encriptación
                 end-to-end y controles de acceso granulares.
               </p>
@@ -302,10 +302,10 @@ const PowerBi: React.FC = () => {
               </svg>
             </div>
             <div>
-              <h3 className="text-[20px] font-lato font-semibold mb-1">
+              <h3 className="xl:text-[16px] 2xl:text-[20px] font-lato font-semibold mb-1">
                 Todo en uno
               </h3>
-              <p className="font-lato font-normal text-[14.4px] leading-[21.6px] text-[#6b7280] antialiased">
+              <p className="font-lato font-normal text-[14px] leading-[21.6px] text-[#6b7280] antialiased">
                 Solución completa que integra análisis, visualización, reportes
                 y colaboración en una experiencia unificada..
               </p>

@@ -85,14 +85,14 @@ Hay una nueva consulta de interés:
           <div className="w-full max-w-3xl text-left grid grid-rows-[auto_1fr] gap-6">
             {/* Texto arriba */}
             <div>
-              <h1 className="text-4xl lg:text-[45px] font-bold leading-tight mb-6">
+              <h1 className="text-4xl lg:text-[35px] xl:text-[40px] 2xl:text-[45px] font-bold mb-[15px]">
                 <span className="bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF]  bg-clip-text text-transparent">
                   Reduce costos de Power BI
                 </span>{" "}
                 hasta un <span className="text-[#2EE0A2]">30%</span> con mi
                 visualization hoy
               </h1>
-              <p className="mb-6 text-white font-lato font-semibold text-[23px] leading-1">
+              <p className="mb-[32px] text-white font-lato font-semibold xl:text-[18px] 2xl:text-[24px] leading-1">
                 Con Mi Visualization, ahorra y escala: reportes centralizados,
                 seguros y{" "}
                 <span className="text-[#2EE0A2]">
@@ -106,25 +106,25 @@ Hay una nueva consulta de interés:
               <div className="grid grid-cols-4 gap-8">
                 <div className="flex flex-col items-center">
                   <img src={icon1} alt="Icon 1" className="h-12 w-12" />
-                  <span className="text-white font-lato text-sm leading-1 mt-2">
+                  <span className="text-white font-lato text-md leading-1 mt-2 text-center">
                     Gobierno Total
                   </span>
                 </div>
                 <div className="flex flex-col items-center">
                   <img src={icon2} alt="Icon 2" className="h-12 w-12" />
-                  <span className="text-white font-lato text-sm leading-1 mt-2">
+                  <span className="text-white font-lato text-md leading-1 mt-2 text-center">
                     BI generativa con IA
                   </span>
                 </div>
                 <div className="flex flex-col items-center">
                   <img src={icon3} alt="Icon 3" className="h-12 w-12" />
-                  <span className="text-white font-lato text-sm leading-1 mt-2">
+                  <span className="text-white font-lato text-md leading-1 mt-2 text-center">
                     Escabilidad
                   </span>
                 </div>
                 <div className="flex flex-col items-center">
                   <img src={icon4} alt="Icon 4" className="h-12 w-12" />
-                  <span className="text-white font-lato text-sm leading-1 mt-2">
+                  <span className="text-white font-lato text-md leading-1 mt-2 text-center">
                     Accesibilidad total
                   </span>
                 </div>
@@ -132,25 +132,25 @@ Hay una nueva consulta de interés:
               <div className="grid grid-cols-4 gap-8">
                 <div className="flex flex-col items-center">
                   <img src={icon5} alt="Icon 5" className="h-12 w-12" />
-                  <span className="text-white font-lato text-sm leading-1 mt-2">
+                  <span className="text-white font-lato text-md leading-1 mt-2 text-center">
                     Seguridad avanzada
                   </span>
                 </div>
                 <div className="flex flex-col items-center">
                   <img src={icon6} alt="Icon 6" className="h-12 w-12" />
-                  <span className="text-white font-lato text-sm leading-1 mt-2">
+                  <span className="text-white font-lato text-md leading-1 mt-2 text-center">
                     Auditoria
                   </span>
                 </div>
                 <div className="flex flex-col items-center">
                   <img src={icon7} alt="Icon 7" className="h-12 w-12" />
-                  <span className="text-white font-lato text-sm leading-1 mt-2">
+                  <span className="text-white font-lato text-md leading-1 mt-2 text-center">
                     KPI con analítica avanzada
                   </span>
                 </div>
                 <div className="flex flex-col items-center">
                   <img src={icon8} alt="Icon 8" className="h-12 w-12" />
-                  <span className="text-white font-lato text-sm leading-1 mt-2">
+                  <span className="text-white font-lato text-md leading-1 mt-2 text-center">
                     Para Todos
                   </span>
                 </div>
@@ -162,7 +162,7 @@ Hay una nueva consulta de interés:
         {/* Fila 1 - Columna 2: Formulario */}
         <div className="lg:col-span-1 flex justify-center items-center">
           <div className="bg-gray-100 text-gray-900 p-6 rounded-3xl shadow-lg w-full max-w-lg min-w-[280px] overflow-auto mx-h-md">
-            <h3 className="text-lg font-bold font-lato text-center mb-4">
+            <h3 className="xl:text-[20px] 2xl:text-[25px] font-bold font-lato text-center mb-4">
               ¿Interesado? <br />
               <span className="font-bold font-lato">
                 Comienza o pide una demostración
