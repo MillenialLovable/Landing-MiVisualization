@@ -49,7 +49,6 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({
 
   const fontOptions = [
     { id: "inter", name: "Inter", fontFamily: "Inter, sans-serif" },
-    { id: "lato", name: "Lato", fontFamily: "Lato, sans-serif" }, // <-- Añade esta línea
     {
       id: "grotesk",
       name: "Space Grotesk",

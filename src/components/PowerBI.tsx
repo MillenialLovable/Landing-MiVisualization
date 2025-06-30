@@ -32,7 +32,7 @@ const PowerBi: React.FC = () => {
           className="text-[17px] font-semibold font-lato text-[#178EE8] tracking-widest mb-2 uppercase"
           style={{ letterSpacing: "0.3em" }}
         >
-          S O L U C I Ó N   B I   I N T E G R A D A
+          SOLUCIÓN BI INTEGRADA
         </p>
         <h1 className="text-[36px] sm:text-[38px] md:text-[40px] font-lato font-extrabold leading-[1.1] mb-3">
           Centraliza, Protege Y Optimiza Tu
