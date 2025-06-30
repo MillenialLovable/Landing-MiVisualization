@@ -3,6 +3,10 @@ import imgleft from "../assets/login-espaol-1.png";
 import imgcenter from "../assets/reportes-21.png";
 import imgrigth from "../assets/reportes-1.png";
 import img4 from "../assets/celu.png";
+import feature1 from "../assets/icons-power-bi/AccesoUnificado.svg";
+import feature2 from "../assets/icons-power-bi/AccesoTotal.svg";
+import feature3 from "../assets/icons-power-bi/SeguridadAvanzada2.svg";
+import feature4 from "../assets/icons-power-bi/TodoEnUno.svg";
 
 const PowerBi: React.FC = () => {
   return (
@@ -144,43 +148,8 @@ const PowerBi: React.FC = () => {
         {/* Feature 1 */}
         <div className="flex gap-3 border-l-4 border-[#178EE8] pl-4">
           <div className="flex flex-col">
-            <div className="w-8 h-8 border-radius-5px bg-gradient-to-br from-[#3B82F6] to-[#06B6D4] rounded-md flex items-center justify-center mb-1 ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="25"
-                viewBox="0 0 24 25"
-                fill="none"
-              >
-                <path
-                  d="M16 21.8901V19.8901C16 18.8293 15.5786 17.8119 14.8284 17.0617C14.0783 16.3116 13.0609 15.8901 12 15.8901H6C4.93913 15.8901 3.92172 16.3116 3.17157 17.0617C2.42143 17.8119 2 18.8293 2 19.8901V21.8901"
-                  stroke="white"
-                  stroke-width="2.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M9 11.8901C11.2091 11.8901 13 10.0993 13 7.89014C13 5.681 11.2091 3.89014 9 3.89014C6.79086 3.89014 5 5.681 5 7.89014C5 10.0993 6.79086 11.8901 9 11.8901Z"
-                  stroke="white"
-                  stroke-width="2.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M22 21.89V19.89C21.9993 19.0037 21.7044 18.1428 21.1614 17.4423C20.6184 16.7419 19.8581 16.2416 19 16.02"
-                  stroke="white"
-                  stroke-width="2.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M16 4.02002C16.8604 4.24032 17.623 4.74072 18.1676 5.44233C18.7122 6.14394 19.0078 7.00685 19.0078 7.89502C19.0078 8.78319 18.7122 9.6461 18.1676 10.3477C17.623 11.0493 16.8604 11.5497 16 11.77"
-                  stroke="white"
-                  stroke-width="2.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+            <div className="w-8 h-8 border-radius-5px bg-transparent rounded-md flex items-center justify-center mb-1 ">
+              <img src={feature1} alt="Acceso unificado" />
             </div>
             <div>
               <h3 className="xl:text-[16px] 2xl:text-[20px] font-lato font-semibold mb-1">
@@ -198,22 +167,8 @@ const PowerBi: React.FC = () => {
         {/* Feature 2 */}
         <div className="flex gap-3 border-l-4 border-[#178EE8] pl-4">
           <div className="flex flex-col">
-            <div className="w-8 h-8 border-radius-5px bg-gradient-to-br from-[#3B82F6] to-[#06B6D4] rounded-md flex items-center justify-center mb-1 ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-              >
-                <path
-                  d="M20 13C20 18 16.5 20.5 12.34 21.95C12.1222 22.0238 11.8855 22.0202 11.67 21.94C7.5 20.5 4 18 4 13V5.99996C4 5.73474 4.10536 5.48039 4.29289 5.29285C4.48043 5.10532 4.73478 4.99996 5 4.99996C7 4.99996 9.5 3.79996 11.24 2.27996C11.4519 2.09896 11.7214 1.99951 12 1.99951C12.2786 1.99951 12.5481 2.09896 12.76 2.27996C14.51 3.80996 17 4.99996 19 4.99996C19.2652 4.99996 19.5196 5.10532 19.7071 5.29285C19.8946 5.48039 20 5.73474 20 5.99996V13Z"
-                  stroke="white"
-                  stroke-width="2.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+            <div className="w-8 h-8 border-radius-5px bg-transparent rounded-md flex items-center justify-center mb-1 ">
+              <img src={feature2} alt="Acceso unificado" />
             </div>
             <div>
               <h3 className="xl:text-[16px] 2xl:text-[20px] font-semibold font-lato mb-1">
@@ -231,29 +186,8 @@ const PowerBi: React.FC = () => {
         {/* Feature 3 */}
         <div className="flex gap-3 border-l-4 border-[#178EE8] pl-4">
           <div className="flex flex-col">
-            <div className="w-8 h-8 border-radius-5px bg-gradient-to-br from-[#3B82F6] to-[#06B6D4] rounded-md flex items-center justify-center mb-1 ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
-                viewBox="0 0 25 25"
-                fill="none"
-              >
-                <path
-                  d="M19.3198 11.8901H5.31982C4.21525 11.8901 3.31982 12.7856 3.31982 13.8901V20.8901C3.31982 21.9947 4.21525 22.8901 5.31982 22.8901H19.3198C20.4244 22.8901 21.3198 21.9947 21.3198 20.8901V13.8901C21.3198 12.7856 20.4244 11.8901 19.3198 11.8901Z"
-                  stroke="white"
-                  stroke-width="2.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M7.31982 11.8901V7.89014C7.31982 6.56405 7.84661 5.29228 8.78429 4.3546C9.72197 3.41692 10.9937 2.89014 12.3198 2.89014C13.6459 2.89014 14.9177 3.41692 15.8554 4.3546C16.793 5.29228 17.3198 6.56405 17.3198 7.89014V11.8901"
-                  stroke="white"
-                  stroke-width="2.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+            <div className="w-8 h-8 border-radius-5px bg-transparent rounded-md flex items-center justify-center mb-1 ">
+              <img src={feature3} alt="Acceso unificado" />
             </div>
             <div>
               <h3 className="xl:text-[16px] 2xl:text-[20px] font-semibold font-lato mb-1">
@@ -270,36 +204,8 @@ const PowerBi: React.FC = () => {
         {/* Feature 4 */}
         <div className="flex gap-3 border-l-4 border-[#178EE8] pl-4">
           <div className="flex flex-col">
-            <div className="w-8 h-8 border-radius-5px bg-gradient-to-br from-[#3B82F6] to-[#06B6D4] rounded-md flex items-center justify-center mb-1 ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-              >
-                <path
-                  d="M12.83 2.18011C12.5694 2.06126 12.2864 1.99976 12 1.99976C11.7136 1.99976 11.4305 2.06126 11.17 2.18011L2.59996 6.08011C2.42251 6.15836 2.27164 6.28651 2.16573 6.44897C2.05981 6.61143 2.00342 6.80118 2.00342 6.99511C2.00342 7.18905 2.05981 7.3788 2.16573 7.54126C2.27164 7.70371 2.42251 7.83187 2.59996 7.91011L11.18 11.8201C11.4405 11.939 11.7236 12.0005 12.01 12.0005C12.2964 12.0005 12.5794 11.939 12.84 11.8201L21.42 7.92011C21.5974 7.84187 21.7483 7.71371 21.8542 7.55126C21.9601 7.3888 22.0165 7.19905 22.0165 7.00511C22.0165 6.81118 21.9601 6.62143 21.8542 6.45897C21.7483 6.29651 21.5974 6.16836 21.42 6.09011L12.83 2.18011Z"
-                  stroke="white"
-                  stroke-width="2.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M22 17.6499L12.83 21.8099C12.5694 21.9288 12.2864 21.9903 12 21.9903C11.7136 21.9903 11.4306 21.9288 11.17 21.8099L2 17.6499"
-                  stroke="white"
-                  stroke-width="2.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M22 12.6499L12.83 16.8099C12.5694 16.9288 12.2864 16.9903 12 16.9903C11.7136 16.9903 11.4306 16.9288 11.17 16.8099L2 12.6499"
-                  stroke="white"
-                  stroke-width="2.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+            <div className="w-8 h-8 border-radius-5px bg-transparent rounded-md flex items-center justify-center mb-1 ">
+              <img src={feature4} alt="Acceso unificado" />
             </div>
             <div>
               <h3 className="xl:text-[16px] 2xl:text-[20px] font-lato font-semibold mb-1">

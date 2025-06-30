@@ -1,26 +1,30 @@
 import React from "react";
 import bigenrativo from "../assets/gifBI.gif";
-import a2Icon from "../assets/Symboli.svg";
-import a2Icon2 from "../assets/Group36546.svg";
-import a2Icon3 from "../assets/Vector2.svg";
+import a2Icon from "../assets/icons-BiGenerativo/Exploracion.svg";
+import a2Icon2 from "../assets/icons-BiGenerativo/Generacion.svg";
+import a2Icon3 from "../assets/icons-BiGenerativo/Interaccion.svg";
 
 const BiGenerativo: React.FC = () => {
   return (
     <section className="pb-12 lg:pb-[70px] px-6 lg:px-20 text-[#0f172a] font-lato">
       <div className="max-w-auto pt-10 pb-20 relative overflow-visible">
-        <p className="text-center text-[10px] font-lato font-semibold text-[#a3abb7] uppercase leading-3 tracking-widest mb-6 select-none">
-          ANALÍTICA CON
-          <br />
-          INTELIGENCIA ARTIFICIAL
-        </p>
+        <div className="flex items-center justify-center gap-4">
+          <div className="border-t border-[#d1d5db] w-28"></div>
+          <p className="text-center xl:text-[16px] 2xl:text-[18px] font-lato font-semibold text-[#a3abb7] uppercase leading-5 tracking-widest mb-6 select-none">
+            ANALÍTICA CON {" "}
+            <br />
+            INTELIGENCIA ARTIFICIAL
+          </p>
+          <div className="border-t border-[#d1d5db] w-28"></div>
+        </div>
         <h2
-          className="text-[11px] sm:text-[12px] md:text-[13px] font-semibold font-lato text-[#0091ff] uppercase tracking-widest mb-1 select-none"
+          className="text-[11px] sm:text-[12px] md:text-[14px] xl:text-[17px] 2xl:text-[19px] font-semibold font-lato text-[#0091ff] uppercase tracking-widest mb-1 select-none"
           style={{ letterSpacing: "0.3em" }}
         >
           IMPULSA TUS DECISIONES
         </h2>
         <h1
-          className="text-[22px] sm:text-[26px] md:text-[28px] font-extrabold font-lato leading-[1.1] max-w-auto mb-1"
+          className="text-[22px] sm:text-[26px] md:text-[28px] xl:text-[40px] 2xl:text-[42px] font-extrabold font-lato leading-[1.1] max-w-auto mb-[15px] select-none"
           style={{
             background: "linear-gradient(90deg, #2EE0A2 12.5%, #26B7FF 40.87%)",
             backgroundClip: "text",
@@ -36,7 +40,7 @@ const BiGenerativo: React.FC = () => {
           <br />
           Tu BI
         </h1>
-        <p className="text-[13px] sm:text-[14px] md:text-[15px] max-w-auto font-lato font-normal text-[#1f2937] mb-10 leading-[1.3] max-w-[70em] padding-x-4">
+        <p className="text-[13px] sm:text-[14px] md:text-[15px] xl:text-[16px] 2xl:text-[17px] max-w-auto font-lato font-normal text-[#1f2937] mb-10 leading-[1.3] max-w-[70em] padding-x-4">
           Explora tus datos con mayor agilidad mediante preguntas en lenguaje
           natural. Con MiVisualization, la IA generativa transforma la manera en
           que accedes a insights, permitiéndote interactuar con dashboards sin
@@ -76,7 +80,7 @@ const BiGenerativo: React.FC = () => {
         </svg>
 
         <div className="flex flex-col md:flex-row md:space-x-10">
-          <div className="flex flex-col space-y-6 md:w-[360px]">
+          <div className="flex flex-col space-y-6 md:w-[400px] lg:w-[400px] xl:w-[500px]">
             {/* Card 1 */}
             <div
               className="bg-white bg-opacity-50 shadow-md rounded-md p-5 relative"
@@ -90,17 +94,17 @@ const BiGenerativo: React.FC = () => {
               <div className="flex items-center space-x-3 mb-2">
                 <img
                   alt="Icono A²"
-                  className="w-6 h-6"
+                  className="w-10 h-10"
                   height="24"
                   src={a2Icon}
                   width="24"
                 />
-                <h3 className="font-bold text-[13px] text-[#0f172a] leading-tight">
+                <h3 className="font-bold xl:text-[16px] 2xl:text-[18px] text-[#0f172a] leading-tight">
                   Exploración de Datos con Lenguaje Natural
                 </h3>
               </div>
-              <p className="text-[12px] text-[#6b7280] leading-snug">
-                <span className="text-[#0091ff]">Haz preguntas</span> sobre los
+              <p className="xl:text-[14px] 2xl:text-[16px] text-[#6b7280] leading-snug">
+                Haz preguntas sobre los
                 datos y recibe respuestas instantáneas sin necesidad de
                 conocimientos técnicos.
               </p>
@@ -119,16 +123,16 @@ const BiGenerativo: React.FC = () => {
               <div className="flex items-center space-x-3 mb-2">
                 <img
                   alt="Icono gráfico de barras y gráfico de columnas en tonos azul y verde"
-                  className="w-6 h-6"
+                  className="w-10 h-10"
                   height="24"
                   src={a2Icon2}
                   width="24"
                 />
-                <h3 className="font-bold text-[13px] text-[#0f172a] leading-tight">
+                <h3 className="font-bold xl:text-[16px] 2xl:text-[18px] text-[#0f172a] leading-tight">
                   Generación Automática de Insights
                 </h3>
               </div>
-              <p className="text-[12px] text-[#6b7280] leading-snug">
+              <p className="xl:text-[14px] 2xl:text-[16px] text-[#6b7280] leading-snug">
                 La IA identifica patrones y proporciona recomendaciones clave
                 para facilitar decisiones estratégicas.
               </p>
@@ -147,16 +151,16 @@ const BiGenerativo: React.FC = () => {
               <div className="flex items-center space-x-3 mb-2">
                 <img
                   alt="Icono azul con letras AI representando inteligencia artificial"
-                  className="w-6 h-6"
+                  className="w-10 h-10"
                   height="24"
                   src={a2Icon3}
                   width="24"
                 />
-                <h3 className="font-bold text-[13px] text-[#0f172a] leading-tight">
+                <h3 className="font-bold xl:text-[16px] 2xl:text-[18px] text-[#0f172a] leading-tight">
                   Interacción Dinámica con Dashboards
                 </h3>
               </div>
-              <p className="text-[12px] text-[#6b7280] leading-snug">
+              <p className="xl:text-[14px] 2xl:text-[16px] text-[#6b7280] leading-snug">
                 Consulta y actualiza dashboards de manera intuitiva con
                 respuestas rápidas a tus preguntas.
               </p>
