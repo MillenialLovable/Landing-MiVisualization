@@ -80,10 +80,10 @@ const BiGenerativo: React.FC = () => {
         </svg>
 
         <div className="flex flex-col md:flex-row md:space-x-10">
-          <div className="flex flex-col space-y-6 md:w-[400px] lg:w-[400px] xl:w-[500px]">
+          <div className="flex flex-col space-y-[55px] md:w-[400px] lg:w-[400px] xl:w-[500px]">
             {/* Card 1 */}
             <div
-              className="bg-white bg-opacity-50 shadow-md rounded-md p-5 relative"
+              className="bg-white shadow-lg rounded-md p-5 relative"
               style={{
                 borderLeft: "3px solid",
                 borderImage:
@@ -103,16 +103,11 @@ const BiGenerativo: React.FC = () => {
                   Exploración de Datos con Lenguaje Natural
                 </h3>
               </div>
-              <p className="xl:text-[14px] 2xl:text-[16px] text-[#6b7280] leading-snug">
-                Haz preguntas sobre los
-                datos y recibe respuestas instantáneas sin necesidad de
-                conocimientos técnicos.
-              </p>
             </div>
 
             {/* Card 2 */}
             <div
-              className="bg-white bg-opacity-50 shadow-md rounded-md p-5 relative"
+              className="bg-white shadow-lg rounded-md p-5 relative"
               style={{
                 borderLeft: "3px solid",
                 borderImage:
@@ -132,15 +127,11 @@ const BiGenerativo: React.FC = () => {
                   Generación Automática de Insights
                 </h3>
               </div>
-              <p className="xl:text-[14px] 2xl:text-[16px] text-[#6b7280] leading-snug">
-                La IA identifica patrones y proporciona recomendaciones clave
-                para facilitar decisiones estratégicas.
-              </p>
             </div>
 
             {/* Card 3 */}
             <div
-              className="bg-white bg-opacity-50 shadow-md rounded-md p-5 relative"
+              className="bg-white shadow-lg rounded-md p-5 relative"
               style={{
                 borderLeft: "3px solid",
                 borderImage:
@@ -160,10 +151,6 @@ const BiGenerativo: React.FC = () => {
                   Interacción Dinámica con Dashboards
                 </h3>
               </div>
-              <p className="xl:text-[14px] 2xl:text-[16px] text-[#6b7280] leading-snug">
-                Consulta y actualiza dashboards de manera intuitiva con
-                respuestas rápidas a tus preguntas.
-              </p>
             </div>
           </div>
 
