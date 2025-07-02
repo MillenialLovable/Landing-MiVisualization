@@ -1,10 +1,8 @@
-import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from './components/NavBar'
 import Hero from './components/Hero';
 import PowerBi from './components/PowerBI';
 import ConfigurablePlatform from "./components/ConfigurablePlatform";
-import Demo from "./components/demo";
 import BiGenerativo from "./components/BiGenerativo";
 import Seguridad from "./components/seguridad";
 import Footer from "./components/Footer";
