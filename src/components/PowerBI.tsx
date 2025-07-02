@@ -51,7 +51,7 @@ const PowerBi: React.FC = () => {
       {/* Contenedor de imágenes y forma de gradiente */}
       <div>
         {/* Triángulo rojo a la izquierda */}
-        <div className="hidden lg:block absolute lg:left-[-70px] lg:bottom-[1450px] xl:left-[-70px] xl:bottom-[-1000px] 2xl:left-[-100px] 2xl:bottom-[-955px] z-0">
+        <div className="hidden lg:block absolute lg:left-[-70px] lg:bottom-[1450px] xl:left-[-70px] xl:bottom-[-1000px] 2xl:left-[-100px] 2xl:bottom-[-955px] z-[-1]">
           <svg
             className="w-[150px] h-[200px] sm:w-[200px] sm:h-[270px] md:w-[250px] md:h-[340px] lg:w-[280px] lg:h-[380px] xl:w-[280px] xl:h-[350px] 2xl:w-[350px] 2xl:h-[450px]"
             viewBox="0 0 191 444"

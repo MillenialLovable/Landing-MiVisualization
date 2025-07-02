@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/Analitica2.png";
 import nube from "../assets/VerDemostracion.svg";
 import logo2 from "../assets/logo2.svg";
@@ -24,12 +25,12 @@ const Footer: React.FC = () => {
             >
               <div className="max-w-[320px] md:max-w-[400px] text-center md:text-left">
                 <div className="hidden xl:block bg-transparent mb-4 flex items-center justify-center">
-                <img
-                  src={nube}
-                  alt="Flecha derecha"
-                  className=" ml-1"
-                />
-              </div>
+                  <img
+                    src={nube}
+                    alt="Flecha derecha"
+                    className=" ml-1"
+                  />
+                </div>
                 <h2 className="text-xl md:text-2xl lg:text-2xl xl:text-3xl font-extrabold text-[#0f2f5e] leading-tight mb-2">
                   ¿Te gustaría ver
                   <br />
@@ -279,17 +280,17 @@ const Footer: React.FC = () => {
         {/* Copyright section */}
         <div className="mt-16 border-t border-[#1a6dbb] pt-6 text-[#a3b0c0] font-lato text-xs md:text-sm flex flex-col md:flex-row justify-between">
           <p>© 2024 Mi Visualization. Todos los derechos reservados.</p>
-          {/* <div className="space-x-4 mt-3 md:mt-0">
-            <a className="hover:text-white transition" href="#">
+          <div className="space-x-4 mt-3 md:mt-0">
+            <Link className="hover:text-white transition" to="/privacidad">
               Política de Privacidad
-            </a>
-            <a className="hover:text-white transition" href="#">
+            </Link>
+            {/* <Link className="hover:text-white transition" to="/terminos">
               Términos de Servicio
-            </a>
-            <a className="hover:text-white transition" href="#">
+            </Link>
+            <Link className="hover:text-white transition" to="/cookies">
               Política de Cookies
-            </a>
-          </div> */}
+            </Link> */}
+          </div>
         </div>
       </div>
     </section>
