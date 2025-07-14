@@ -14,9 +14,9 @@ const Seguridad: React.FC = () => {
       <div className="transform skew-y-3">
         {/* Encabezado superior */}
         <div className="flex flex-col items-center justify-center mb-8 md:mb-12">
-          <span className="text-transparent font-lato bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF] tracking-widest text-sm md:text-md font-semibold">
+          <h1 className="text-transparent text-[20px] bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF]  font-semibold">
             Autenticación y Seguridad
-          </span>
+          </h1>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-lato text-center mb-2 mt-2 max-w-3xl">
             Protege tus Datos con la Seguridad más Avanzada
           </h2>
