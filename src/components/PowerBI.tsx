@@ -30,7 +30,6 @@ const PowerBi: React.FC = () => {
       <div className="max-w-auto mx-auto md:mx-0 text-center md:text-left">
         <p
           className="text-[17px] font-semibold font-lato text-[#178EE8] tracking-widest mb-2 uppercase"
-          style={{ letterSpacing: "0.3em" }}
         >
           SOLUCIÓN BI INTEGRADA
         </p>
@@ -39,8 +38,8 @@ const PowerBi: React.FC = () => {
           <br />
           Inteligencia De Negocios
         </h1>
-        <p className="text-[12px] sm:text-[14px] md:text-[16px] font-lato font-bold leading-snug max-w-auto mx-auto md:mx-0 text-justify">
-          MiVisualization es una plataforma segura y centralizada que integra
+        <p className="text-[12px] sm:text-[14px] md:text-[16px] font-lato leading-snug max-w-auto mx-auto md:mx-0 text-justify">
+          Mi Visualization es una plataforma segura y centralizada que integra
           reportes de Power BI, Tableau, QuickSight y Excel en un solo lugar.
           Permite gestionar usuarios, accesos y sesiones con control total y sin
           necesidad de licencias individuales. Además, incorpora BI generativo

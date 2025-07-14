@@ -131,8 +131,8 @@ const Seguridad: React.FC = () => {
           </div>
         </div>
         <div className="text-center max-w-3xl mx-auto mt-12 md:mt-20 px-4">
-          <p className="text-transparent bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF] tracking-widest text-sm md:text-md font-semibold">
-            N U E S T R O B L O G
+          <p className="text-transparent bg-clip-text bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF] tracking-widest text-md md:text-lg font-semibold">
+            NUESTRO BLOG
           </p>
           <h1 className="font-extrabold text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight mb-4 max-w-3xl mx-auto">
             Insights Y Novedades Sobre BI Y Analítica
