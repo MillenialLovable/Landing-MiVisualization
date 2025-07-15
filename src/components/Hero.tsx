@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import dashboardImg from "../assets/dashboard.png";
+import videoDemo from "../assets/VideoDemo.mp4";
 import {
   UserIcon,
   EnvelopeIcon,
@@ -20,6 +21,7 @@ import icon8 from "../assets/icons/ParaTodos.svg";
 const Hero: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
   const [sent, setSent] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -246,13 +248,22 @@ Hay una nueva consulta de interés:
                   />
                 </div>
 
-                {/* Botón */}
-                <button
-                  type="submit"
-                  className="col-span-2 mt-2 bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
-                >
-                  Enviar
-                </button>
+                {/* Botón Enviar y Ver demo */}
+                <div className="col-span-2 flex flex-row gap-4 mt-2 justify-center">
+                  <button
+                    type="submit"
+                    className="flex-1 bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
+                  >
+                    Enviar
+                  </button>
+                  <button
+                    type="button"
+                    className="flex-1 bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
+                    onClick={() => setShowModal(true)}
+                  >
+                    Ver demo
+                  </button>
+                </div>
               </form>
             )}
           </div>
@@ -267,6 +278,33 @@ Hay una nueva consulta de interés:
           />
         </div>
       </div>
+
+      {/* Modal para el video demo */}
+      {showModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
+          <div className="bg-white rounded-lg p-4 sm:p-6 md:p-8 max-w-3xl w-full mx-2 relative">
+            <button
+              className="absolute top-2 right-2 text-gray-600 hover:text-gray-900 text-2xl font-bold"
+              onClick={() => setShowModal(false)}
+              aria-label="Cerrar"
+            >
+              ×
+            </button>
+            <h2 className="text-xl font-bold mb-4 text-center text-gray-900">
+              Demostración en video
+            </h2>
+            <div className="w-full aspect-video bg-black rounded overflow-hidden">
+              <video
+                controls
+                src={videoDemo}
+                className="w-full h-full object-contain bg-black"
+              >
+                Tu navegador no soporta la reproducción de video.
+              </video>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 };
