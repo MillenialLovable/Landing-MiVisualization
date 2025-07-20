@@ -6,8 +6,8 @@ import icon3 from "../assets/icons-ConfigurablePlatform/Personalizacion.svg";
 const ConfigurablePlatform: React.FC = () => {
   return (
     <section
-      id="bigenerativo"
-      className="relative bg-transparent py-16 px-4 md:px-16 text-white overflow-hidden transform font-lato"
+      id="configurable-platform"
+      className="relative bg-transparent py-16 px-4 md:px-16 text-white overflow-hidden transform font-lato scroll-mt-20"
     >
       {/* Fondo SVG */}
       <svg
@@ -109,7 +109,7 @@ const ConfigurablePlatform: React.FC = () => {
           </h2>
           <p className="font-lato font-normal text-[16px] leading-[21.6px] text-[#a7aebf] text-center max-w-3xl antialiased mb-3">
             Desde la identidad visual hasta la organización de dashboards por
-            unidad o categoría, MiVisualization permite una configuración
+            unidad o categoría, Mi Visualization permite una configuración
             granular que garantiza eficiencia operativa, control de accesos y
             una experiencia alineada a la cultura de cada empresa.
           </p>

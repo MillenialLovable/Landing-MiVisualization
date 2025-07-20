@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
                 <h2 className="text-xl md:text-2xl lg:text-2xl xl:text-3xl font-extrabold text-[#0f2f5e] leading-tight mb-2">
                   ¿Te gustaría ver
                   <br />
-                  MiVisualization en acción?
+                  Mi Visualization en acción?
                 </h2>
                 <p className="text-[#4f5361] text-xs md:text-xs lg:text-sm xl:text-lg font-lato font-normal leading-relaxed mb-4 w-full md:w-[330px]">
                   Descubre cómo nuestra plataforma puede transformar tu gestión
@@ -51,7 +51,7 @@ const Footer: React.FC = () => {
             </div>
             <img
               src={logo}
-              alt="MiVisualization Dashboard Preview"
+              alt="Mi Visualization Dashboard Preview"
               className="hidden md:block w-auto md:w-[400px] lg:w-[600px] xl:w-[800px] 2xl:w-[800px] h-[0px] md:h-[280px] lg:h-[310px] xl:h-[460px] 2xl:h-[450px] rounded-lg absolute md:absolute md:top-5 lg:top-2 xl:top-0 2xl:top-3 md:transform-none md:right-[-20px] lg:right-[40px] xl:-right-[70px] 2xl:-right-[90px] mt-4 md:mt-0"
             />
           </div>

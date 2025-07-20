@@ -273,7 +273,7 @@ Hay una nueva consulta de interés:
         <div className="col-span-full flex justify-center hidden lg:flex">
           <img
             src={dashboardImg}
-            alt="Dashboard MiVisualization"
+            alt="Dashboard Mi Visualization"
             className="rounded-xl shadow-none w-xl lg:w-auto xl:max-w-5xl"
           />
         </div>

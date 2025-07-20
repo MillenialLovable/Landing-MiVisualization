@@ -6,7 +6,7 @@ import a2Icon3 from "../assets/icons-BiGenerativo/Interaccion.svg";
 
 const BiGenerativo: React.FC = () => {
   return (
-    <section className="pb-12 lg:pb-[70px] px-6 lg:px-20 text-[#0f172a] font-lato">
+    <section id="bigenerativo-section" className="pb-12 lg:pb-[70px] px-6 lg:px-20 text-[#0f172a] font-lato scroll-mt-20">
       <div className="max-w-auto pt-10 pb-20 relative overflow-visible">
         <div className="flex items-center justify-center gap-4">
           <div className="border-t border-[#d1d5db] w-28"></div>
@@ -41,7 +41,7 @@ const BiGenerativo: React.FC = () => {
         </h1>
         <p className="text-[13px] sm:text-[14px] md:text-[15px] xl:text-[16px] 2xl:text-[17px] max-w-full font-lato font-normal mb-10 leading-[1.3] max-w-[70em] padding-x-4">
           Explora tus datos con mayor agilidad mediante preguntas en lenguaje
-          natural. Con MiVisualization, la IA generativa transforma la manera en
+          natural. Con Mi Visualization, la IA generativa transforma la manera en
           que accedes a insights, permitiéndote interactuar con dashboards sin
           necesidad de conocimientos técnicos. Ideal para equipos que necesitan
           <strong> respuestas</strong> claras, rápidas y accionables.
@@ -155,7 +155,7 @@ const BiGenerativo: React.FC = () => {
 
           <div className="mt-10 md:mt-0 flex-1 flex justify-center md:justify-center bg-transparent">
             <img
-              alt="Captura de pantalla de dashboard de MiVisualization con varios paneles de datos y gráficos, barras laterales y menús en tonos azul claro y blanco"
+              alt="Captura de pantalla de dashboard de Mi Visualization con varios paneles de datos y gráficos, barras laterales y menús en tonos azul claro y blanco"
               className="rounded-lg max-w-full h-auto bg-transparent"
               height="480"
               src={bigenrativo}

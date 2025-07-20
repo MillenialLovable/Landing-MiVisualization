@@ -12,7 +12,7 @@ const PowerBi: React.FC = () => {
   return (
     <section
       id="powerbi"
-      className="pb-12 lg:pb-[70px] px-6 lg:px-20 font-lato"
+      className="pb-12 lg:pb-[70px] px-6 lg:px-20 font-lato scroll-mt-20"
     >
       {/* Línea de texto superior */}
       <div className="flex items-center justify-center gap-4 text-[9px] font-semibold text-[#a7aebf] uppercase mb-6 select-none tracking-wider">
@@ -119,7 +119,7 @@ const PowerBi: React.FC = () => {
           {/* Imagen central (superpuesta y centrada desde md+) */}
           <div className="relative z-20 md:absolute md:left-1/2 md:top-[70%] md:-translate-x-1/2 md:-translate-y-1/2 w-auto h-auto sm:w-[220px] sm:h-[160px] md:w-[360px] md:h-[190px] lg:h-[200px] lg:w-[400px] xl:w-[600px] xl:h-[310px] 2xl:w-[750px] 2xl:h-[400px] rounded-2xl overflow-hidden shadow-2xl flex-shrink-0">
             <img
-              alt="Interfaz de MiVisualization mostrando reportes de Power BI y Excel en un dashboard"
+              alt="Interfaz de Mi Visualization mostrando reportes de Power BI y Excel en un dashboard"
               className="object-cover w-full h-full"
               height="400"
               loading="lazy"
@@ -131,7 +131,7 @@ const PowerBi: React.FC = () => {
           {/* Imagen derecha */}
           <div className="relative z-0 w-auto h-auto sm:w-[220px] sm:h-[150px] md:w-[360px] md:h-[190px] lg:h-[200px] lg:w-[400px] xl:w-[600px] xl:h-[310px] 2xl:w-[750px] 2xl:h-[400px] rounded-2xl overflow-hidden shadow-lg flex-shrink-0 md:ml-0 xl:ml-[100px]">
             <img
-              alt="Interfaz de MiVisualization en dispositivo móvil mostrando gráficos de usuarios y sesiones"
+              alt="Interfaz de Mi Visualization en dispositivo móvil mostrando gráficos de usuarios y sesiones"
               className="object-cover w-full h-full"
               height="400"
               loading="lazy"

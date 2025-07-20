@@ -9,7 +9,7 @@ const Seguridad: React.FC = () => {
   return (
     <section
       id="seguridad"
-      className="relative bg-[#09243F] py-12 md:py-16 px-4 md:px-8 lg:px-16 font-lato text-white overflow-hidden transform -skew-y-3"
+      className="relative bg-[#09243F] py-12 md:py-16 px-4 md:px-8 lg:px-16 font-lato text-white overflow-hidden transform -skew-y-3 scroll-mt-20"
     >
       <div className="transform skew-y-3">
         {/* Encabezado superior */}
@@ -70,7 +70,7 @@ const Seguridad: React.FC = () => {
               </h3>
               <p className="text-[14px] md:text-[15px] leading-[24px] md:leading-[30px] font-semibold text-[#7B8A9E]">
                 En
-                <span className="font-bold"> MiVisualization</span>, la seguridad
+                <span className="font-bold"> Mi Visualization</span>, la seguridad
                 de tus datos es nuestra máxima prioridad. Con tecnología de
                 encriptación de última generación, control granular de accesos y
                 una auditoría exhaustiva de todos los registros de usuario,

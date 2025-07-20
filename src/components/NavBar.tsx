@@ -254,25 +254,16 @@ const NavBar: React.FC = () => {
               onClick={(e) => handleNavClick(e, "#powerbi")}
               className="hover:text-blue-300 transition-colors text-base"
             >
-              ¿Qué es el Mi Visualization?
+              ¿Qué es Mi Visualization?
             </a>
           </li>
           <li>
             <a
-              href="#bigenerativo"
-              onClick={(e) => handleNavClick(e, "#bigenerativo")}
+              href="#bigenerativo-section"
+              onClick={(e) => handleNavClick(e, "#bigenerativo-section")}
               className="hover:text-blue-300 transition-colors text-base"
             >
-              Bi Generativo
-            </a>
-          </li>
-          <li>
-            <a
-              href="#demo"
-              onClick={(e) => handleNavClick(e, "#demo")}
-              className="hover:text-blue-300 transition-colors text-base"
-            >
-              Demo
+              BI Generativo
             </a>
           </li>
           <li>
@@ -328,13 +319,13 @@ const NavBar: React.FC = () => {
                   onClick={(e) => handleNavClick(e, "#powerbi")}
                   className="hover:text-blue-300 transition-colors text-xl md:text-2xl"
                 >
-                  ¿Qué es el Mi Visualization?
+                  ¿Qué es Mi Visualization?
                 </a>
               </li>
               <li>
                 <a
-                  href="#services"
-                  onClick={(e) => handleNavClick(e, "#services")}
+                  href="#bigenerativo-section"
+                  onClick={(e) => handleNavClick(e, "#bigenerativo-section")}
                   className="hover:text-blue-300 transition-colors text-xl md:text-2xl"
                 >
                   Bi Generativo

@@ -17,7 +17,7 @@ const PoliticaPrivacidad: React.FC = () => {
             <section>
               <h2 className="font-bold text-lg text-[#1a6dbb] mb-2">1. Introducción</h2>
               <p>
-                Bienvenido a <b>MiVisualization.com</b>, un servicio SaaS disponible a través del Microsoft Marketplace. Esta Política de Privacidad describe cómo recopilamos, utilizamos, almacenamos y compartimos sus datos personales al utilizar nuestros servicios. Al acceder o utilizar la plataforma, usted acepta esta Política de Privacidad y los términos y condiciones aplicables.
+                Bienvenido a <b>Mi Visualization.com</b>, un servicio SaaS disponible a través del Microsoft Marketplace. Esta Política de Privacidad describe cómo recopilamos, utilizamos, almacenamos y compartimos sus datos personales al utilizar nuestros servicios. Al acceder o utilizar la plataforma, usted acepta esta Política de Privacidad y los términos y condiciones aplicables.
               </p>
             </section>
             <section>
@@ -91,7 +91,7 @@ const PoliticaPrivacidad: React.FC = () => {
                 <li>Oponerse al tratamiento para fines específicos.</li>
               </ul>
               <p className="mt-2">
-                Para ejercer estos derechos, contáctenos en: <a href="mailto:support@mivisualization.com" className="text-[#1a6dbb] underline">support@mivisualization.com</a>
+                Para ejercer estos derechos, contáctenos en: <a href="mailto:support@Mi Visualization.com" className="text-[#1a6dbb] underline">support@Mi Visualization.com</a>
               </p>
             </section>
             <section>
