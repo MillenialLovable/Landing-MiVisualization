@@ -10,6 +10,7 @@ import BlogDetail from "./pages/BlogDetail";
 import PoliticaPrivacidad from "./pages/PoliticaPrivacidad";
 import TerminosServicio from "./pages/TerminosServicio";
 import PoliticaCookies from "./pages/PoliticaCookies";
+import CasoExito from "./pages/CasoExito";
 
 function Home() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/privacidad" element={<PoliticaPrivacidad />} />
         <Route path="/terminos" element={<TerminosServicio />} />
         <Route path="/cookies" element={<PoliticaCookies />} />
+        <Route path="/caso-exito" element={<CasoExito />} />
       </Routes>
     </Router>
   );
