@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const NavBar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -277,8 +279,9 @@ const NavBar: React.FC = () => {
           </li>
           <li>
             <a
-              href="#caso-exito"
-              onClick={(e) => handleNavClick(e, "#caso-exito")}
+              onClick={(e) => {
+                navigate('/caso-exito')
+              }}
               className="hover:text-blue-300 transition-colors text-base"
             >
               Caso de exito
@@ -361,7 +364,10 @@ const NavBar: React.FC = () => {
               <li>
                 <a
                   href="#caso-exito"
-                  onClick={(e) => handleNavClick(e, "#caso-exito")}
+                  onClick={(e) => {
+                    console.log('ajsdkjakljda')
+                    navigate('/caso-exito')
+                  }}
                   className="hover:text-blue-300 transition-colors text-xl md:text-2xl"
                 >
                   Caso de exito
