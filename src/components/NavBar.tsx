@@ -349,6 +349,15 @@ const NavBar: React.FC = () => {
                   Sobre Nosotros
                 </a>
               </li>
+              <li>
+                <a
+                  href="#caso-exito"
+                  onClick={(e) => handleNavClick(e, "#caso-exito")}
+                  className="hover:text-blue-300 transition-colors text-xl md:text-2xl"
+                >
+                  Caso de exito
+                </a>
+              </li>
             </ul>
           </div>
         </div>
