@@ -275,6 +275,15 @@ const NavBar: React.FC = () => {
               Seguridad
             </a>
           </li>
+          <li>
+            <a
+              href="#caso-exito"
+              onClick={(e) => handleNavClick(e, "#caso-exito")}
+              className="hover:text-blue-300 transition-colors text-base"
+            >
+              Caso de exito
+            </a>
+          </li>
         </ul>
 
         {/* Menú móvil y tablet */}
