@@ -32,16 +32,19 @@ const challenges: Challenge[] = [
 
 const ChallengeCS: React.FC = () => {
     return (
-        <div>
-            <div className="flex flex-col items-center px-2 my-4">
-                <h1 className="text-center font-bold text-[#243A52]">El Desafío de SMI</h1>
-                <h3 className="text-center font-semibold text-[#2EE0A2]">San Miguel Industrial necesitaba una plataforma centralizada</h3>
-                <h3 className="text-center font-normal text-[#243A52]">Como una de las empresas industriales líderes,
+        <div className="bg-[#F4F7FB] py-10">
+            <div className="flex flex-col items-center px-2 gap-4">
+                <h1 className="text-center font-bold text-[#243A52] text-4xl">El Desafío de SMI</h1>
+                <h3 className="text-center font-semibold text-[#2EE0A2] text-3xl">San Miguel Industrial necesitaba una plataforma centralizada</h3>
+                <h3 className="text-center font-normal text-[#243A52] text-xl whitespace-pre-line">
+                    Como una de las empresas industriales líderes,
                     SMI enfrentaba el reto de optimizar el acceso a sus reportes
-                    Power BI mientras buscaba reducir costos.
+                    <span className="block">
+                        Power BI mientras buscaba reducir costos.
+                    </span>
                 </h3>
             </div>
-            <section className="flex flex-col sm:flex sm:flex-row items-center justify-center gap-8 my-20 sm:px-6">
+            <section className="flex flex-col sm:flex sm:flex-row md:gap-12 items-center justify-center gap-16 my-20 sm:px-6">
                 {challenges.map(c => (
                     <ChanllengeCard challenge={c} />
                 ))
