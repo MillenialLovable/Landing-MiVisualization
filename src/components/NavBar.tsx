@@ -282,7 +282,7 @@ const NavBar: React.FC = () => {
               onClick={() => {
                 navigate('/caso-exito')
               }}
-              className="hover:text-blue-300 transition-colors text-base"
+              className="hover:text-blue-300 transition-colors text-base cursor-pointer"
             >
               Caso de exito
             </a>
@@ -368,7 +368,7 @@ const NavBar: React.FC = () => {
                     console.log('ajsdkjakljda')
                     navigate('/caso-exito')
                   }}
-                  className="hover:text-blue-300 transition-colors text-xl md:text-2xl"
+                  className="hover:text-blue-300 transition-colors text-xl md:text-2xl cursor-pointer"
                 >
                   Caso de exito
                 </a>
