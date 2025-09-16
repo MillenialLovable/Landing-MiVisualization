@@ -16,12 +16,16 @@ const DemoGratuita: React.FC = () => {
         SMI logró optimizar costos y centralizar su BI. Tu empresa puede ser la siguiente.
       </p>
       <div className="flex justify-center">
-        <button 
-          className="text-white px-6 py-3 flex gap-2 items-center"
+        <a 
+          href="https://wa.me/51975113510"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white px-6 py-3 flex gap-2 items-center cursor-pointer"
           style={{
             borderRadius: '12px',
             background: '#2EE0A2',
-            boxShadow: '0 0 20px 0 #2EE0A2'
+            boxShadow: '0 0 20px 0 #2EE0A2',
+            textDecoration: 'none'
           }}
         >
         <svg
@@ -62,7 +66,7 @@ const DemoGratuita: React.FC = () => {
             stroke-linejoin="round"
           />
         </svg>
-        </button>
+        </a>
       </div>
       </div>
     </div>
