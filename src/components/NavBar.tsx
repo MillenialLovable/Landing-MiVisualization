@@ -279,7 +279,7 @@ const NavBar: React.FC = () => {
           </li>
           <li>
             <a
-              onClick={(e) => {
+              onClick={() => {
                 navigate('/caso-exito')
               }}
               className="hover:text-blue-300 transition-colors text-base"
@@ -364,7 +364,7 @@ const NavBar: React.FC = () => {
               <li>
                 <a
                   href="#caso-exito"
-                  onClick={(e) => {
+                  onClick={() => {
                     console.log('ajsdkjakljda')
                     navigate('/caso-exito')
                   }}
