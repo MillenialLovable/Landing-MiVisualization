@@ -5,6 +5,7 @@ import ChallengeCS from "../components/CasoExito/ChallengeCS";
 import Solucion from "../components/CasoExito/Solucion";
 import Solucion2 from "../components/CasoExito/Solucion2";
 import DemoGratuita from "../components/CasoExito/DemoGratuita";
+import KPI from "../components/CasoExito/KPI";
 
 const CasoExito: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const CasoExito: React.FC = () => {
       <Hero />
       <ChallengeCS />
       <Solucion />
+      <KPI />
       <Solucion2 />
       <DemoGratuita />
     </>
