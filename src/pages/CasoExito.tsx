@@ -3,6 +3,8 @@ import Navbar from "../components/NavBar";
 import Hero from "../components/CasoExito/hero";
 import ChallengeCS from "../components/CasoExito/ChallengeCS";
 import Solucion from "../components/CasoExito/Solucion";
+import Solucion2 from "../components/CasoExito/Solucion2";
+import DemoGratuita from "../components/CasoExito/DemoGratuita";
 
 const CasoExito: React.FC = () => {
   return (
@@ -11,6 +13,8 @@ const CasoExito: React.FC = () => {
       <Hero />
       <ChallengeCS />
       <Solucion />
+      <Solucion2 />
+      <DemoGratuita />
     </>
   );
 };
