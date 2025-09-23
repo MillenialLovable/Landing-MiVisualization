@@ -12,7 +12,11 @@ const BlogDetail: React.FC = () => {
   // SEO dinámico para el post del blog
   useSEO({
     title: post ? `${post.title} - Mi Visualization Blog` : "Post no encontrado - Mi Visualization",
-    description: post ? post.description : "El post solicitado no fue encontrado en nuestro blog de Business Intelligence.",
+    description: post ? 
+      typeof post.content === 'string' 
+        ? post.content.substring(0, 160) + '...' 
+        : `Descubre ${post.title} en nuestro blog de Business Intelligence y análisis de datos.`
+      : "El post solicitado no fue encontrado en nuestro blog de Business Intelligence.",
     keywords: post ? `${post.title}, business intelligence, BI, análisis de datos, Mi Visualization` : "Mi Visualization, blog, business intelligence",
     canonical: `https://mivisualization.com/blog/${id}`
   });
