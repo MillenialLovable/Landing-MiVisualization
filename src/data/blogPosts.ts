@@ -10,7 +10,7 @@ export interface BlogPost {
   title: string;
   author: string;
   time: string;
-  img: string;
+  img: string | any;
   avatar: string;
   alt: string;
   link: string;
@@ -23,7 +23,7 @@ export const blogPosts: BlogPost[] = [
     title: "Cómo migrar de Excel a Power BI sin perder datos",
     author: "Jessie G",
     time: "2 minutos",
-    img: tarjeta1,
+    img: tarjeta1 as string,
     avatar:
       "https://storage.googleapis.com/a1aa/image/e5a42dca-e51c-4cd5-1201-da08396fe8f3.jpg",
     alt: "Ilustración colorida de gráficos y tablas de analítica en pantalla de computadora y papeles",
@@ -36,7 +36,7 @@ export const blogPosts: BlogPost[] = [
     title: "Integración de AWS Quicksight con fuentes externas",
     author: "Brian D",
     time: "1 minuto",
-    img: tarjeta2,
+    img: tarjeta2 as string,
     avatar:
       "https://storage.googleapis.com/a1aa/image/47763a4e-919b-41d7-8f71-c7a2817de218.jpg",
     alt: "Captura de video con tres personas en conferencia en recuadros",
@@ -49,7 +49,7 @@ export const blogPosts: BlogPost[] = [
     title: "Visualización de datos: mejores prácticas para dashboards efectivos",
     author: "María L",
     time: "3 minutos",
-    img: tarjeta3,
+    img: tarjeta3 as string,
     avatar:
       "https://storage.googleapis.com/a1aa/image/e5a42dca-e51c-4cd5-1201-da08396fe8f3.jpg",
     alt: "Pantalla con dashboard interactivo y gráficos de barras y líneas",
@@ -62,7 +62,7 @@ export const blogPosts: BlogPost[] = [
     title: "BI Generativo: La herramienta que transforma tus datos en gráficos con IA",
     author: "Carlos M",
     time: "2 minutos",
-    img: tarjeta4,
+    img: tarjeta4 as string,
     avatar:
       "https://storage.googleapis.com/a1aa/image/47763a4e-919b-41d7-8f71-c7a2817de218.jpg",
     alt: "Gráficos generados por inteligencia artificial en pantalla",
@@ -75,7 +75,7 @@ export const blogPosts: BlogPost[] = [
     title: "Errores comunes al migrar datos y cómo evitarlos",
     author: "Lucía P",
     time: "4 minutos",
-    img: tarjeta5,
+    img: tarjeta5 as string,
     avatar:
       "https://storage.googleapis.com/a1aa/image/e5a42dca-e51c-4cd5-1201-da08396fe8f3.jpg",
     alt: "Iconos de advertencia y archivos en proceso de transferencia",

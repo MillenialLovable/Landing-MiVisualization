@@ -272,7 +272,7 @@ Hay una nueva consulta de interés:
         {/* Fila 2 - Imagen (full width) */}
         <div className="col-span-full flex justify-center hidden lg:flex">
           <img
-            src={dashboardImg}
+            src={dashboardImg as string}
             alt="Dashboard Mi Visualization"
             className="rounded-xl shadow-none w-xl lg:w-auto xl:max-w-5xl"
           />

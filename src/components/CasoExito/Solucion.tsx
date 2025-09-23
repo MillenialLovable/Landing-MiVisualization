@@ -53,7 +53,7 @@ const Solucion: React.FC = () => {
                 <div className="text-gray-600 font-semibold mt-1">+145</div>
               </div>
               <img
-                src={dashboard}
+                src={dashboard as string}
                 alt="Dashboard Mi Visualización"
                 className="w-auto h-auto rounded-lg"
               />

@@ -99,7 +99,7 @@ const PowerBi: React.FC = () => {
           {/* Imagen superpuesta arriba a la derecha */}
           <div className="hidden xl:block absolute top-20 lg:right-[-15px] xl:top-32 xl:right-[-125px] 2xl:top-32 2xl:right-[-270px] z-30 w-24 h-24 lg:w-32 lg:h-32 xl:w-[280px] xl:h-auto">
             <img
-              src={img4}
+              src={img4 as string}
               alt="Imagen superpuesta"
               className="object-contain w-auto h-auto"
             />
@@ -111,7 +111,7 @@ const PowerBi: React.FC = () => {
               className="object-cover w-full h-full"
               height="400"
               loading="lazy"
-              src={imgleft}
+              src={imgleft as string}
               width="750"
             />
           </div>
@@ -123,7 +123,7 @@ const PowerBi: React.FC = () => {
               className="object-cover w-full h-full"
               height="400"
               loading="lazy"
-              src={imgcenter}
+              src={imgcenter as string}
               width="750"
             />
           </div>
@@ -135,7 +135,7 @@ const PowerBi: React.FC = () => {
               className="object-cover w-full h-full"
               height="400"
               loading="lazy"
-              src={imgrigth}
+              src={imgrigth as string}
               width="750"
             />
           </div>
