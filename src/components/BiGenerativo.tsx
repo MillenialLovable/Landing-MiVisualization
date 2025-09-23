@@ -158,7 +158,7 @@ const BiGenerativo: React.FC = () => {
               alt="Captura de pantalla de dashboard de Mi Visualization con varios paneles de datos y gráficos, barras laterales y menús en tonos azul claro y blanco"
               className="rounded-lg max-w-full h-auto bg-transparent"
               height="480"
-              src={bigenrativo as string}
+              src={bigenrativo as unknown as string}
               width="750"
             />
           </div>
