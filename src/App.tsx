@@ -11,8 +11,17 @@ import PoliticaPrivacidad from "./pages/PoliticaPrivacidad";
 import TerminosServicio from "./pages/TerminosServicio";
 import PoliticaCookies from "./pages/PoliticaCookies";
 import CasoExito from "./pages/CasoExito";
+import { useSEO } from "./utils/seo";
 
 function Home() {
+  // SEO para la página principal
+  useSEO({
+    title: "Mi Visualization - Plataforma de Business Intelligence y Análisis de Datos",
+    description: "Plataforma líder de Business Intelligence con BI Generativo, dashboards configurables y máxima seguridad. Transforma tus datos en insights accionables.",
+    keywords: "business intelligence, BI, análisis de datos, dashboards, Power BI, visualización de datos, analytics, Mi Visualization",
+    canonical: "https://mivisualization.com"
+  });
+
   return (
     <>
       <NavBar />

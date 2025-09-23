@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
                 <div className="hidden xl:block bg-transparent mb-4 flex items-center justify-center">
                   <img
                     src={nube}
-                    alt="Flecha derecha"
+                    alt="Icono de nube - Mi Visualization"
                     className=" ml-1"
                   />
                 </div>
@@ -51,7 +51,7 @@ const Footer: React.FC = () => {
             </div>
             <img
               src={logo}
-              alt="Mi Visualization Dashboard Preview"
+              alt="Dashboard de Mi Visualization - Plataforma de Business Intelligence"
               className="hidden md:block w-auto md:w-[400px] lg:w-[600px] xl:w-[800px] 2xl:w-[800px] h-[0px] md:h-[280px] lg:h-[310px] xl:h-[460px] 2xl:h-[450px] rounded-lg absolute md:absolute md:top-5 lg:top-2 xl:top-0 2xl:top-3 md:transform-none md:right-[-20px] lg:right-[40px] xl:-right-[70px] 2xl:-right-[90px] mt-4 md:mt-0"
             />
           </div>
