@@ -97,7 +97,7 @@ Hay una nueva consulta de interés:
               <p className="mb-[32px] text-white font-lato font-semibold xl:text-[18px] 2xl:text-[24px] leading-1">
                 Ahorra y escala: reportes centralizados, seguros y{" "}
                 <span className="text-[#2EE0A2]">
-                  hasta 20 usuarios por $2,540 al año
+                  hasta 120 usuarios por $15,120 al año
                 </span>
                 .
               </p>
