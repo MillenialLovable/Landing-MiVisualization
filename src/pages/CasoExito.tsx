@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/NavBar";
 import Hero from "../components/CasoExito/hero";
 import ChallengeCS from "../components/CasoExito/ChallengeCS";
@@ -8,6 +8,9 @@ import DemoGratuita from "../components/CasoExito/DemoGratuita";
 import KPI from "../components/CasoExito/KPI";
 
 const CasoExito: React.FC = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />
