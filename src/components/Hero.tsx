@@ -91,13 +91,13 @@ Hay una nueva consulta de interés:
                 <span className="bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF]  bg-clip-text text-transparent">
                   Reduce costos de Power BI
                 </span>{" "}
-                hasta un <span className="text-[#2EE0A2]">30%</span> con Mi
+                hasta un <span className="text-[#2EE0A2]">50%</span> con Mi
                 Visualization hoy
               </h1>
               <p className="mb-[32px] text-white font-lato font-semibold xl:text-[18px] 2xl:text-[24px] leading-1">
                 Ahorra y escala: reportes centralizados, seguros y{" "}
                 <span className="text-[#2EE0A2]">
-                  hasta 120 usuarios por $15,120 al año
+                  hasta 100 usuarios por $9,600 al año
                 </span>
                 .
               </p>
