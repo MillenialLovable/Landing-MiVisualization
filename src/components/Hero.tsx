@@ -89,7 +89,7 @@ Hay una nueva consulta de interés:
             <div>
               <h1 className="text-4xl lg:text-[35px] xl:text-[40px] 2xl:text-[45px] font-bold mb-[15px]">
                 <span className="bg-gradient-to-r from-[#2EE0A2] to-[#26B7FF]  bg-clip-text text-transparent">
-                  Reduce costos de Power BI
+                  Reduce costos de POWER BI PRO
                 </span>{" "}
                 hasta un <span className="text-[#2EE0A2]">50%</span> con Mi
                 Visualization hoy
